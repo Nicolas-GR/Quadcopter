@@ -107,7 +107,59 @@ void tic_init()
 	isr_register(1, &tic_isr);
 }
 
+/***************************************************************************
+ * WIFI ESP8266 Functions
+ */
 
+void init_wifi(){ //configurar el modulo como estación con puerto 80
+	uart_putstr("AT+RST\r\n");
+	msleep(200);
+	int c = 0;
+	while(c==0){
+		uart_putstr("AT+CIPMUX=1\r\n");
+		c = ok();
+	}
+	c = 0;
+	while (c==0){
+		uart_putstr("AT+CIPSERVER=1,80\r\n");
+		c = ok();
+	}
+}
+
+void wifi_putchar2(char a){
+	int c = 0; 	  
+	while(c == 0){
+		uart_putstr2("AT+CIPSEND=0,1\r\n");
+		uart_putchar2(a);
+		c = ok();
+	}
+}
+
+char wifi_getchar2(){
+	char c='\n';
+	int i=0;
+	for(i=0;i<20;i++){
+		c = uart_getchar2();
+		if (c ==':'){
+			c = uart_getchar2();
+			return c;
+		}
+	}
+	return '\n';
+}
+
+int ok(){
+	int i=0;
+	char a;
+	for(i=0;i<30;i++){
+		a=uart_getchar2();
+		if(a=='K'){
+			return 1;
+		}
+	}
+	return 0;
+
+}
 /***************************************************************************
  * UART Functions
  */
@@ -121,15 +173,16 @@ void uart_init()
 	//uart0->div = (FCPU/(57600*16));
 }
 
-char uart_getchar1()
-{   
-	while (! (uart1->ucr & UART_DR)) ;
-	return uart1->rxtx;
-}
 char uart_getchar0()
 {   
 	while (! (uart0->ucr & UART_DR)) ;
 	return uart0->rxtx;
+}
+
+char uart_getchar1()
+{   
+	while (! (uart1->ucr & UART_DR)) ;
+	return uart1->rxtx;
 }
 
 char uart_getchar2()
@@ -146,6 +199,11 @@ void uart_putchar1(char c)
 {
 	while (uart1->ucr & UART_BUSY) ;
 	uart1->rxtx = c;
+}
+void uart_putchar2(char c)
+{
+	while (uart2->ucr & UART_BUSY) ;
+	uart2->rxtx = c;
 }
 
 void uart_putstr0(char *str)
@@ -165,11 +223,16 @@ void uart_putstr1(char *str)
 		c++;
 	}
 }
-void uart_putchar2(char c)
+
+void uart_putstr2(char *str)
 {
-	while (uart2->ucr & UART_BUSY) ;
-	uart2->rxtx = c;
+	char *c = str;
+	while(*c) {
+		uart_putchar2(*c);
+		c++;
+	}
 }
+
 
 /***************************************************************************
  * Motor Functions 
