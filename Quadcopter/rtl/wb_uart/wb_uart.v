@@ -10,7 +10,7 @@
 
 module wb_uart #(
 	parameter          clk_freq = 100000000,
-	parameter          baud     = 38400
+	parameter          baud     = 115200
 ) (
 	input              clk,
 	input              reset,
