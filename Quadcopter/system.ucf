@@ -1,0 +1,36 @@
+
+# ==== Cloclk inputs (CLK) ====
+
+
+##Clock signal
+
+Net "clk" LOC=V10 | IOSTANDARD=LVCMOS33;
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+
+#Net "rst" LOC = A8 | IOSTANDARD = LVCMOS33; #Bank = 0, pin name = IO_L33N, Sch name = BTNU
+Net "rst" LOC = T10 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L29N_GCLK2, Sch name = SW0
+Net "Led" LOC = U16 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L2P_CMPCLK, Sch name = LD0
+
+
+# ==== UART ====
+## Usb-RS232 interface
+Net "uart_rxd" LOC = N17 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48P_HDC_M1DQ8, Sch name = MCU-RX
+Net "uart_txd" LOC = N18 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48N_M1DQ9, Sch name = MCU-TX
+
+##pmods Cam4
+Net "uart_txd1" LOC = F11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42P, Sch name = JD3
+Net "uart_rxd1" LOC = E11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42N, Sch name = JD4
+
+
+
+# ==== SPI ====
+#NET "spi_miso"	LOC = "P2"	| IOSTANDARD = "LVCMOS33";		
+#NET "spi_mosi"	LOC = "R2"	| IOSTANDARD = "LVCMOS33";		
+#NET "spi_clk"	LOC = "U1"	| IOSTANDARD = "LVCMOS33";		
+
+# ==== I2C ====	
+#NET "i2c_sda"	LOC = "V9"	| IOSTANDARD = "LVCMOS33";		
+#NET "i2c_clk"	LOC = "R8"	| IOSTANDARD = "LVCMOS33";		
+

@@ -1,0 +1,10 @@
+firmware/hw-control_de_asistencia/image*
+firmware/hw-control_de_asistencia/*~
+firmware/hw-control_de_asistencia/*.o
+firmware/hw-control_de_asistencia/*.d
+*~
+simulation/*
+build/*
+
+
+
