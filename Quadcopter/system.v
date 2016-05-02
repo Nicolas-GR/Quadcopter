@@ -12,7 +12,7 @@ module system
 //	parameter   bootram_file     = "../firmware/hw-test/image.ram",
         parameter   bootram_file     = "../firmware/hw-control_de_asistencia/image.ram",
 	parameter   clk_freq         = 100000000,
-	parameter   uart_baud_rate   = 38400
+	parameter   uart_baud_rate   = 115200
 ) (
 	input             clk,
 	// Debug 
