@@ -4,15 +4,13 @@
 //-----------------------------------------------------
 module uart #(
 	parameter          freq_hz = 100000000,
-	parameter          baud    = 38400
+	parameter          baud    = 115200
 ) (
 	input              reset,
 	input              clk,
 	// UART lines
 	input              uart_rxd,
 	output reg         uart_txd,
-//	input              uart_rxd1,
-//	output reg         uart_txd1,
 	// 
 	output reg [7:0]   rx_data,
 	output reg         rx_avail,

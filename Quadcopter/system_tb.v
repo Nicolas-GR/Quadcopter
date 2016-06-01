@@ -9,7 +9,7 @@ module system_tb;
 // Parameter (may differ for physical synthesis)
 //----------------------------------------------------------------------------
 parameter tck              = 10;       // clock period in ns
-parameter uart_baud_rate   = 38400;  // uart baud rate for simulation 
+parameter uart_baud_rate   = 1152000;  // uart baud rate for simulation 
 
 parameter clk_freq = 1000000000 / tck; // Frequenzy in HZ
 //----------------------------------------------------------------------------

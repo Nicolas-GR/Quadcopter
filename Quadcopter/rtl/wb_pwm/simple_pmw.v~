@@ -1,0 +1,26 @@
+
+
+module simplePWM(clk_in, duty_cycle, period, PWM_out);
+	
+	input clk_in; 			//clock for counter 
+	input [31:0] time_work;	// time [us] of PWM-out=1
+	input [31:0] period;	// Period [us]
+	
+	output reg PWM_out <= 1;	//PWM signal out
+	
+	reg [31:0] counter = 0;	//Counter 0 ~ Period
+	
+	always @(posedge clk_in)begin
+		if(counter==period)begin
+			counter <= 32'b0;
+			PWM_out <= 1;
+		end
+		if(counter >= time_work)begin
+			PWM_out <= 0;
+		end
+		counter <= counter + 1;		
+	end
+	
+endmodule
+	
+

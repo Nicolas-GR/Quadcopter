@@ -1,0 +1,41 @@
+//---------------------------------------------------------------------------
+//
+// Wishbone PMW
+//
+// 
+// 
+// Register mapping:
+//
+//    0x00 FRECUENCY
+//    0x04 
+//    0x08 COUNTER0
+//    0x0C TCR1
+//    0x10 COMPARE1
+//    0x14 COUNTER1
+
+module simplePWM(clk_in, duty_cycle, period, PWM_out);
+	
+	input clk_in; 			//clock for counter 
+	input [:0] duty_cycle;	//
+	input [:0] period;		//
+	
+	output reg PWM_out = 1;	//PWM signal out
+	
+	parameter = 
+	
+	reg [:0] counter = 0;
+	
+	always @(posedge clk_in)begin
+		if(counter < period)begin
+			if(counter  duty_cycle)begin
+			end else begin
+				PWM_out <= 0;
+			end
+		end else begin
+			counter = 0;
+			PWM_out <= 1;
+		end	
+	end
+endmodule
+	
+

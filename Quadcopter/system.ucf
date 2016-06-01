@@ -9,28 +9,32 @@ Net "clk" TNM_NET = sys_clk_pin;
 TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
 
 
-#Net "rst" LOC = A8 | IOSTANDARD = LVCMOS33; #Bank = 0, pin name = IO_L33N, Sch name = BTNU
 Net "rst" LOC = T10 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L29N_GCLK2, Sch name = SW0
 Net "Led" LOC = U16 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L2P_CMPCLK, Sch name = LD0
+Net "Led1" LOC = V16 |  IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L2N_CMPMOSI, Sch name = LD1
 
 
-# ==== UART ====
-## Usb-RS232 interface
-Net "uart_rxd" LOC = N17 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48P_HDC_M1DQ8, Sch name = MCU-RX
-Net "uart_txd" LOC = N18 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48N_M1DQ9, Sch name = MCU-TX
+## ==== UART ====
 
-##pmods Cam4
-Net "uart_txd1" LOC = F11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42P, Sch name = JD3
-Net "uart_rxd1" LOC = E11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42N, Sch name = JD4
+# == WIFI-ESP8266 ==
+Net "uart_rxd" LOC = F11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42P, Sch name = JD3
+Net "uart_txd" LOC = E11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42N, Sch name = JD4
+# == Usb-RS232 interface ==
+Net "uart_rxd1" LOC = N17 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48P_HDC_M1DQ8, Sch name = MCU-RX
+Net "uart_txd1" LOC = N18 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48N_M1DQ9, Sch name = MCU-TX
 
-
-
-# ==== SPI ====
-#NET "spi_miso"	LOC = "P2"	| IOSTANDARD = "LVCMOS33";		
-#NET "spi_mosi"	LOC = "R2"	| IOSTANDARD = "LVCMOS33";		
-#NET "spi_clk"	LOC = "U1"	| IOSTANDARD = "LVCMOS33";		
+## === PWM ====
+NET "PWMmotors[0]" LOC = "T12" | IOSTANDARD = "LVCMOS33"; 
+NET "PWMmotors[1]" LOC = "V12" | IOSTANDARD = "LVCMOS33"; 
+NET "PWMmotors[2]" LOC = "N10" | IOSTANDARD = "LVCMOS33"; 
+NET "PWMmotors[3]" LOC = "P11" | IOSTANDARD = "LVCMOS33"; 
+NET "ledMotors[0]" LOC = "T11" | IOSTANDARD = "LVCMOS33"; 
+NET "ledMotors[1]" LOC = "R11" | IOSTANDARD = "LVCMOS33"; 
+NET "ledMotors[2]" LOC = "N11" | IOSTANDARD = "LVCMOS33"; 
+NET "ledMotors[3]" LOC = "M11" | IOSTANDARD = "LVCMOS33"; 
 
 # ==== I2C ====	
 #NET "i2c_sda"	LOC = "V9"	| IOSTANDARD = "LVCMOS33";		
-#NET "i2c_clk"	LOC = "R8"	| IOSTANDARD = "LVCMOS33";		
+#NET "i2c_clk"	LOC = "R8"	| IOSTANDARD = "LVCMOS33";	
+	
 

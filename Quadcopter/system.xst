@@ -8,4 +8,3 @@ run
 -p xc6slx16-csg324	
 -register_balancing yes
 -rtlview yes
-

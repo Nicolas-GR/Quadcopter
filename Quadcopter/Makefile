@@ -3,7 +3,10 @@ XILINXCADROOT   = /opt/cad/Xilinx/10.1/ISE
 VINCDIR=                                  \
 	-I../rtl/wb_conbus                 \
 	-I../rtl/lm32                      \
-	-I../rtl/wb_ddr
+	-I../rtl/wb_ddr			\
+        -I../rtl/			\
+	-I../rtl/wb_i2c/
+
 
 SYN_SRC=
 
@@ -35,18 +38,37 @@ SRC=                                      \
 	../rtl/wb_uart/wb_uart.v           \
 	../rtl/wb_timer/wb_timer.v         \
 	../rtl/wb_gpio/wb_gpio.v           \
+	../rtl/wb_pwm/wb_pwm.v           \
+	../rtl/wb_pwm/simple_pwm.v           \
 	../rtl/wb_spi/wb_spi.v             \
+	../rtl/wb_i2c/i2c_master_wb_top.v  \
+	../rtl/wb_i2c/i2c_master_registers.v  \
+	../rtl/wb_i2c/i2c_master_byte_ctrl.v  \
+	../rtl/wb_i2c/i2c_master_bit_ctrl.v  \
 	../rtl/wb_conbus/conbus.v          \
-	../rtl/wb_conbus/conbus_arb.v      \
-	../rtl/wb_LCD/contador_E.v        \
-	../rtl/wb_LCD/contador_estado.v        \
-	../rtl/wb_LCD/LCD_MODULE.v \
-	../rtl/wb_LCD/wb_LCD.v             \
-	../rtl/wb_key/decoder_key.v        \
-	../rtl/wb_key/divisor_clk.v        \
-	../rtl/wb_key/key_top.v            \
-	../rtl/wb_key/selector_filas_key.v \
-	../rtl/wb_key/wb_key.v             
+	../rtl/wb_conbus/conbus_arb.v     \
+	../cores/pfpu/rtl/pfpu.v \
+	../cores/pfpu/rtl/pfpu_above.v \
+	../cores/pfpu/rtl/pfpu_addrgen.v \
+	../cores/pfpu/rtl/pfpu_alu.v \
+	../cores/pfpu/rtl/pfpu_clz32.v \
+	../cores/pfpu/rtl/pfpu_copy.v \
+	../cores/pfpu/rtl/pfpu_ctlif.v \
+	../cores/pfpu/rtl/pfpu_dma.v \
+	../cores/pfpu/rtl/pfpu_equal.v \
+	../cores/pfpu/rtl/pfpu_f2i.v \
+	../cores/pfpu/rtl/pfpu_faddsub.v \
+	../cores/pfpu/rtl/pfpu_fmul.v \
+	../cores/pfpu/rtl/pfpu_i2f.v \
+	../cores/pfpu/rtl/pfpu_if.v \
+	../cores/pfpu/rtl/pfpu_prog.v \
+	../cores/pfpu/rtl/pfpu_quake.v \
+	../cores/pfpu/rtl/pfpu_regf.v \
+	../cores/pfpu/rtl/pfpu_seq.v \
+	../cores/pfpu/rtl/pfpu_sincos.v \
+	../cores/pfpu/rtl/pfpu_tpram.v \
+	../cores/pfpu/rtl/pfpu_tsign.v \
+	../cores/csrbrg/rtl/csrbrg.v 	 
 
 #############################################################################
 # Synthesis constants

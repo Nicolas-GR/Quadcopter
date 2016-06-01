@@ -10,7 +10,7 @@
 
 module wb_uart #(
 	parameter          clk_freq = 100000000,
-	parameter          baud     = 38400
+	parameter          baud     = 115200
 ) (
 	input              clk,
 	input              reset,
@@ -25,9 +25,8 @@ module wb_uart #(
 	output reg  [31:0] wb_dat_o,
 	// Serial Wires
 	input              uart_rxd,
-	output             uart_txd
-//	input 		   uart_rxd1,
-//	output 		   uart_txd1
+	output             uart_txd,
+	output             intr
 );
 
 //---------------------------------------------------------------------------
@@ -60,26 +59,6 @@ uart #(
 	.tx_busy(   tx_busy  )
 );
 
-
-/*uart #(
-	.freq_hz(   clk_freq ),
-	.baud(      baud     )
-) uart1 (
-	.clk(       clk      ),
-	.reset(     reset    ),
-	//
-	.uart_rxd(  uart_rxd1 ),
-	.uart_txd(  uart_txd1 ),
-	//
-	.rx_data(   rx_data  ),
-	.rx_avail(  rx_avail ),
-	.rx_error(  rx_error ),
-	.rx_ack(    rx_ack   ),
-	.tx_data(   tx_data  ),
-	.tx_wr(     tx_wr    ),
-	.tx_busy(   tx_busy  )
-);
-*/
 //---------------------------------------------------------------------------
 // 
 //---------------------------------------------------------------------------

@@ -61,6 +61,16 @@ module conbus #(
 	input		m1_stb_i,
 	output		m1_ack_o,
 	
+	// Master 2 Interface
+	input	[31:0]	m2_dat_i,
+	output	[31:0]	m2_dat_o,
+	input	[31:0]	m2_adr_i,
+	input	[2:0]	m2_cti_i,
+	input	[3:0]	m2_sel_i,
+	input		m2_we_i,
+	input		m2_cyc_i,
+	input		m2_stb_i,
+	output		m2_ack_o,
 	
 	// Slave 0 Interface
 	input	[31:0]	s0_dat_i,
@@ -127,7 +137,7 @@ module conbus #(
 	output		s5_cyc_o,
 	output		s5_stb_o,
 	input		s5_ack_i,
-
+	
 	// Slave 6 Interface
 	input	[31:0]	s6_dat_i,
 	output	[31:0]	s6_dat_o,
@@ -158,6 +168,10 @@ assign m0_ack_o = i_bus_ack & gnt[0];
 assign m1_dat_o = i_dat_s;
 assign m1_ack_o = i_bus_ack & gnt[1];
 
+// master 2
+assign m2_dat_o = i_dat_s;
+assign m2_ack_o = i_bus_ack & gnt[2];
+
 
 assign i_bus_ack = s0_ack_i | s1_ack_i | s2_ack_i | s3_ack_i | s4_ack_i | s5_ack_i;
 
@@ -187,12 +201,13 @@ assign {s5_adr_o, s5_cti_o, s5_sel_o, s5_dat_o, s5_we_o, s5_cyc_o, s5_stb_o}
 
 // slave 6
 assign {s6_adr_o, s6_cti_o, s6_sel_o, s6_dat_o, s6_we_o, s6_cyc_o, s6_stb_o} 
-	= {i_bus_m[`mbusw_ls -1:2], i_bus_m[1] & slave_sel[4], i_bus_m[0]};
+	= {i_bus_m[`mbusw_ls -1:2], i_bus_m[1] & slave_sel[6], i_bus_m[0]};
 
 
 assign i_bus_m =
 	 ({`mbusw_ls{gnt[0]}} & {m0_adr_i, m0_cti_i, m0_sel_i, m0_dat_i, m0_we_i, m0_cyc_i, m0_stb_i})
-	|({`mbusw_ls{gnt[1]}} & {m1_adr_i, m1_cti_i, m1_sel_i, m1_dat_i, m1_we_i, m1_cyc_i, m1_stb_i});
+	|({`mbusw_ls{gnt[1]}} & {m1_adr_i, m1_cti_i, m1_sel_i, m1_dat_i, m1_we_i, m1_cyc_i, m1_stb_i})
+	|({`mbusw_ls{gnt[2]}} & {m2_adr_i, m2_cti_i, m2_sel_i, m2_dat_i, m2_we_i, m2_cyc_i, m2_stb_i});
 
 assign i_dat_s =
 		 ({32{slave_sel[ 0]}} & s0_dat_i)
@@ -200,7 +215,7 @@ assign i_dat_s =
 		|({32{slave_sel[ 2]}} & s2_dat_i)
 		|({32{slave_sel[ 3]}} & s3_dat_i)
 		|({32{slave_sel[ 4]}} & s4_dat_i)
-		|({32{slave_sel[ 5]}} & s5_dat_i)
+		|({32{slave_sel[ 5]}} & s6_dat_i)
 		|({32{slave_sel[ 6]}} & s6_dat_i);
 
 wire [6:0] req = {m1_cyc_i, m0_cyc_i};
@@ -212,12 +227,12 @@ conbus_arb conbus_arb(
 	.gnt(gnt)
 );
 
-assign slave_sel[0] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-3-1] == s0_addr);
-assign slave_sel[1] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-3-1] == s1_addr);
-assign slave_sel[2] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-3-1] == s2_addr);
-assign slave_sel[3] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-3-1] == s3_addr);
-assign slave_sel[4] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-3-1] == s4_addr);
-assign slave_sel[5] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-3-1] == s5_addr);
-assign slave_sel[6] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-3-1] == s6_addr);
+assign slave_sel[0] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-s_addr_w-1] == s0_addr);
+assign slave_sel[1] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-s_addr_w-1] == s1_addr);
+assign slave_sel[2] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-s_addr_w-1] == s2_addr);
+assign slave_sel[3] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-s_addr_w-1] == s3_addr);
+assign slave_sel[4] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-s_addr_w-1] == s4_addr);
+assign slave_sel[5] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-s_addr_w-1] == s5_addr);
+assign slave_sel[6] = (i_bus_m[`mbusw_ls-2 : `mbusw_ls-s_addr_w-1] == s6_addr);
 
 endmodule
