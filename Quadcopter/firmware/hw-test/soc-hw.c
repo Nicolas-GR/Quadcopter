@@ -8,7 +8,6 @@ uart_t  *uart1  = (uart_t *)   0x50000000;
 i2c_t   *i2c0   = (i2c_t *)    0x60000000;
 
 isr_ptr_t isr_table[32];
-
 void prueba()
 {
 	uart0->rxtx=30;
@@ -20,8 +19,8 @@ void prueba()
 	//spi0->cs=3;
 	//spi0->nop2=5;
 	//spi0->divisor=4;
-	i2c0->rxtx=5;
-	i2c0->divisor=5;
+	//i2c0->rxtx=5;
+	//i2c0->divisor=5;
 
 }
 void tic_isr();
@@ -230,7 +229,7 @@ void uart_putstr1(char *str)
 }
 
 /***************************************************************************
- * Functions PWM //FUNCIONES PRIMITIVAS
+ * PWM Functions //FUNCIONES PRIMITIVAS
  */
 
 void set_period(int p){
@@ -251,60 +250,29 @@ void set_motor4(int wk){
 
 
 /***************************************************************************
- * Functions motors //FUNCIONES PRIMITIVAS
+ * Motors Functions  
  */
 
 void setMotors(){
 	set_period(0x1E8480); //F=50Hz
-	set_motor1(0x2710);
-	set_motor2(0x2710);
-	set_motor3(0x2710);
-	set_motor4(0x2710);
+	set_motor1(0xEA60);
+	set_motor2(0xEA60);
+	set_motor3(0xEA60);
+	set_motor4(0xEA60);
 	msleep(0x3E8);
 }
 
-int vel;
-
-void speedM1(int s){
-	if(s == 0){
-		set_motor1(0x258);	
-	}else if((s <= 0x1) && (s <= 0x64)){
-		vel = 0x434 * s + 0x1CA60;
-		set_motor1(vel);
-	}else if(s > 0x64){
-		set_motor1(0x36EB0);
+void up_down_q(int s){
+	int vel;
+	if(s>=0x1){
+		vel = 0x5DC * s + 0xFD20;
+		
 	}
-}
-
-void speedM2(int s){
-	if(s == 0){
-		set_motor2(0x258);	
-	}else if((s <= 0x1) && (s <= 0x64)){
-		vel = 0x434 * s + 0x1CA60;
-		set_motor2(vel);
-	}else if(s > 0x64){
-		set_motor2(0x36EB0);
+	else{
+		vel= 0xEA60;
 	}
-}
-
-void speedM3(int s){
-	if(s == 0){
-		set_motor3(0x258);	
-	}else if((s <= 0x1) && (s <= 0x64)){
-		vel = 0x38D * s + 0xF1B8B;
-		set_motor3(vel);
-	}else if(s > 0x64){
-		set_motor3(0x2E630);
-	}
-}
-
-void speedM4(int s){
-	if(s == 0){
-		set_motor4(0x258);	
-	}else if((s <= 0x1) && (s <= 0x64)){
-		vel = 0x434 * s + 0x1CA60;
-		set_motor4(vel);
-	}else if(s > 0x64){
-		set_motor4(0x36EB0);
-	}
+	set_motor1(vel);
+	set_motor2(vel);
+	set_motor3(vel);
+	set_motor4(vel);
 }
