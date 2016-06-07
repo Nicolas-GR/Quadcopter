@@ -1,7 +1,7 @@
-INFILE=/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/build/system-routed.ncd
-OUTFILE=/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/build/system.bit
+INFILE=/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/build/system-routed.ncd
+OUTFILE=/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/build/system.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/build
+WORKINGDIR=/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/build
 LICENSE=WebPack
-USER_INFO=211095409_0_0_571
+USER_INFO=211094304_0_0_670

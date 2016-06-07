@@ -16,22 +16,19 @@ Net "Led1" LOC = V16 |  IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L2N_CMPM
 
 ## ==== UART ====
 
-<<<<<<< HEAD
 # == WIFI-ESP8266 ==
 Net "uart_rxd" LOC = F11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42P, Sch name = JD3
 Net "uart_txd" LOC = E11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42N, Sch name = JD4
+
 # == Usb-RS232 interface ==
 Net "uart_rxd1" LOC = N17 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48P_HDC_M1DQ8, Sch name = MCU-RX
 Net "uart_txd1" LOC = N18 | IOSTANDARD=LVCMOS33; #Bank = 1, pin name = IO_L48N_M1DQ9, Sch name = MCU-TX
-=======
-##pmods Cam4
-Net "uart_rxd1" LOC = G11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L40P, Sch name = JD1
-Net "uart_txd1" LOC = F10 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L40N, Sch name = JD2
 
-##pmods wifi- ESP8266
-Net "uart_rxd2" LOC = F11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42P, Sch name = JD3
-Net "uart_txd2" LOC = E11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42N, Sch name = JD4
->>>>>>> 358067ecc79884fa3002f6b92b2e83b41cce7f0e
+
+# == pmods wifi- ESP8266 ==
+#Net "uart_rxd2" LOC = F11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42P, Sch name = JD3
+#Net "uart_txd2" LOC = E11 | IOSTANDARD = LVCMOS33; #Bank = 3, pin name = IO_L42N, Sch name = JD4
+
 
 ## === PWM ====
 NET "PWMmotors[0]" LOC = "T12" | IOSTANDARD = "LVCMOS33"; 
@@ -45,6 +42,4 @@ NET "ledMotors[3]" LOC = "M11" | IOSTANDARD = "LVCMOS33";
 
 # ==== I2C ====	
 #NET "i2c_sda"	LOC = "V9"	| IOSTANDARD = "LVCMOS33";		
-#NET "i2c_clk"	LOC = "R8"	| IOSTANDARD = "LVCMOS33";	
-	
-
+#NET "i2c_clk"	LOC = "R8"	| IOSTANDARD = "LVCMOS33";

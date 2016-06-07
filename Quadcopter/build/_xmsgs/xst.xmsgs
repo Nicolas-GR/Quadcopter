@@ -5,115 +5,112 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 187: Port <arg fmt="%s" index="1">m0_cti_i</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 187: Port <arg fmt="%s" index="1">m0_cti_i</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 446: Port <arg fmt="%s" index="1">intr</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 446: Port <arg fmt="%s" index="1">intr</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 472: Port <arg fmt="%s" index="1">arst_i</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 472: Port <arg fmt="%s" index="1">arst_i</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 226: Assignment to <arg fmt="%s" index="1">pfpubus_ack</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 226: Assignment to <arg fmt="%s" index="1">pfpubus_ack</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 277: Assignment to <arg fmt="%s" index="1">i2c0_sel</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 277: Assignment to <arg fmt="%s" index="1">i2c0_sel</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" Line 461: Assignment to <arg fmt="%s" index="1">pc_x</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_cpu.v" Line 461: Assignment to <arg fmt="%s" index="1">pc_x</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_simtrace.v" Line 20: Empty module &lt;<arg fmt="%s" index="1">lm32_simtrace</arg>&gt; remains a black box.
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_simtrace.v" Line 20: Empty module &lt;<arg fmt="%s" index="1">lm32_simtrace</arg>&gt; remains a black box.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_decoder.v" Line 559: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">30</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_decoder.v" Line 559: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">30</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to <arg fmt="%s" index="1">x_result_sel_logic_x</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to <arg fmt="%s" index="1">x_result_sel_logic_x</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 311: Assignment to <arg fmt="%s" index="1">lm32i_cti</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 311: Assignment to <arg fmt="%s" index="1">lm32i_cti</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 312: Assignment to <arg fmt="%s" index="1">lm32i_lock</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 312: Assignment to <arg fmt="%s" index="1">lm32i_lock</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 313: Assignment to <arg fmt="%s" index="1">lm32i_bte</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 313: Assignment to <arg fmt="%s" index="1">lm32i_bte</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 325: Assignment to <arg fmt="%s" index="1">lm32d_cti</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 325: Assignment to <arg fmt="%s" index="1">lm32d_cti</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 326: Assignment to <arg fmt="%s" index="1">lm32d_lock</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 326: Assignment to <arg fmt="%s" index="1">lm32d_lock</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 327: Assignment to <arg fmt="%s" index="1">lm32d_bte</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 327: Assignment to <arg fmt="%s" index="1">lm32d_bte</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 359: Assignment to <arg fmt="%s" index="1">pfpu_irq</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 359: Assignment to <arg fmt="%s" index="1">pfpu_irq</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 384: Assignment to <arg fmt="%s" index="1">csr_a</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 384: Assignment to <arg fmt="%s" index="1">csr_a</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 385: Assignment to <arg fmt="%s" index="1">csr_we</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 385: Assignment to <arg fmt="%s" index="1">csr_we</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 386: Assignment to <arg fmt="%s" index="1">csr_dw</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 386: Assignment to <arg fmt="%s" index="1">csr_dw</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 39: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v" Line 39: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 88: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v" Line 88: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 91: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v" Line 91: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 135: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v" Line 135: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 138: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v" Line 138: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_byte_ctrl.v" Line 257: Found full_case directive in module <arg fmt="%s" index="1">i2c_master_byte_ctrl</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_byte_ctrl.v" Line 257: Found full_case directive in module <arg fmt="%s" index="1">i2c_master_byte_ctrl</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_bit_ctrl.v" Line 376: Found full_case directive in module <arg fmt="%s" index="1">i2c_master_bit_ctrl</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_bit_ctrl.v" Line 376: Found full_case directive in module <arg fmt="%s" index="1">i2c_master_bit_ctrl</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 476: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wb_adr_i</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 476: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wb_adr_i</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 477: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wb_dat_i</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 477: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wb_dat_i</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 478: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wb_dat_o</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 478: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wb_dat_o</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 151: Net &lt;<arg fmt="%s" index="1">lm32i_rty</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 151: Net &lt;<arg fmt="%s" index="1">lm32i_rty</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 152: Net &lt;<arg fmt="%s" index="1">lm32d_rty</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 152: Net &lt;<arg fmt="%s" index="1">lm32d_rty</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 154: Net &lt;<arg fmt="%s" index="1">lm32i_err</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 154: Net &lt;<arg fmt="%s" index="1">lm32i_err</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 155: Net &lt;<arg fmt="%s" index="1">lm32d_err</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 155: Net &lt;<arg fmt="%s" index="1">lm32d_err</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 374: Net &lt;<arg fmt="%s" index="1">sys_rst</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 374: Net &lt;<arg fmt="%s" index="1">sys_rst</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 196: Input port <arg fmt="%s" index="1">m0_cti_i[2]</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 196: Input port <arg fmt="%s" index="1">m0_cti_i[2]</arg> is not connected on this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 472: Input port <arg fmt="%s" index="1">arst_i</arg> is not connected on this instance
-</msg>
-
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%d" index="2">483</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">simtrace</arg>&gt; of block &lt;<arg fmt="%s" index="4">lm32_simtrace</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">lm32_cpu</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" Line 472: Input port <arg fmt="%s" index="1">arst_i</arg> is not connected on this instance
 </msg>
 
 <msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">m0_cti_i</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">conbus0</arg>&apos;, is tied to GND.
@@ -123,72 +120,6 @@
 </msg>
 
 <msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">arst_i</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">i2c0</arg>&apos;, is tied to GND.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">m2_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s0_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s1_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s2_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s3_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s4_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s5_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s5_sel_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s6_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">s6_sel_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">196</arg>: Output port &lt;<arg fmt="%s" index="3">m2_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">I_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">I_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">D_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">D_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">I_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">D_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">372</arg>: Output port &lt;<arg fmt="%s" index="3">csr_a</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">csrbrg</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">372</arg>: Output port &lt;<arg fmt="%s" index="3">csr_do</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">csrbrg</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">372</arg>: Output port &lt;<arg fmt="%s" index="3">csr_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">csrbrg</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">449</arg>: Output port &lt;<arg fmt="%s" index="3">intr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart1</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v</arg>&quot; line <arg fmt="%s" index="2">472</arg>: Output port &lt;<arg fmt="%s" index="3">wb_inta_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i2c0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">lm32i_rty</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -210,12 +141,6 @@
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">s6_ack_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">436</arg>: Output port &lt;<arg fmt="%s" index="3">pc_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">instruction_unit</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">495</arg>: Output port &lt;<arg fmt="%s" index="3">x_result_sel_logic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">decoder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">valid_f</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.

@@ -50,174 +50,174 @@ RTL Output                         : yes
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" into library wor
 Parsing module <system>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" into library wor
 Parsing module <lac>.
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 23. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 24. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 25. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 86. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 87. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 88. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 89. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 90. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 91. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/lac.v" Line 92. parameter declaration becomes local in lac with formal parameter declaration list
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" into library work
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 23. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 24. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 25. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 86. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 87. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 88. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 89. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 90. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 91. parameter declaration becomes local in lac with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/lac.v" Line 92. parameter declaration becomes local in lac with formal parameter declaration lis
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v" into library wor
 Parsing module <uart>.
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 24. parameter declaration becomes local in uart with formal parameter declaration list
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/dp_ram.v" into library work
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v" Line 24. parameter declaration becomes local in uart with formal parameter declaration lis
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/dp_ram.v" into library wor
 Parsing module <dp_ram>.
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/dp_ram.v" Line 20. parameter declaration becomes local in dp_ram with formal parameter declaration list
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system_conf.v" included at line 28.
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/dp_ram.v" Line 20. parameter declaration becomes local in dp_ram with formal parameter declaration lis
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_cpu.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system_conf.v" included at line 28
 Parsing module <lm32_cpu>.
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_functions.v" included at line 423.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_instruction_unit.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_functions.v" included at line 423
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_instruction_unit.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_instruction_unit>.
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_functions.v" included at line 291.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_decoder.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_functions.v" included at line 291
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_decoder.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_decoder>.
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_functions.v" included at line 298.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_simtrace.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 10.
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_functions.v" included at line 298
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_simtrace.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 10
 Parsing module <lm32_simtrace>.
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_functions.v" included at line 63.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_load_store_unit.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_functions.v" included at line 63
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_load_store_unit.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_load_store_unit>.
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_functions.v" included at line 208.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_adder.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_functions.v" included at line 208
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_adder.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_adder>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_addsub.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 23.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_addsub.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 23
 Parsing module <lm32_addsub>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_logic_op.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_logic_op.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_logic_op>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_shifter.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_shifter.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_shifter>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_multiplier.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_multiplier.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_multiplier>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_mc_arithmetic.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_mc_arithmetic.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 24
 Parsing module <lm32_mc_arithmetic>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_interrupt.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system_conf.v" included at line 24.
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 25.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_interrupt.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system_conf.v" included at line 24
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 25
 Parsing module <lm32_interrupt>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_ram.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_include.v" included at line 23.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_ram.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_include.v" included at line 23
 Parsing module <lm32_ram>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_bram/wb_bram.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_bram/wb_bram.v" into library wor
 Parsing module <wb_bram>.
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_bram/wb_bram.v" Line 25. parameter declaration becomes local in wb_bram with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_bram/wb_bram.v" Line 26. parameter declaration becomes local in wb_bram with formal parameter declaration list
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_uart/wb_uart.v" into library work
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_bram/wb_bram.v" Line 25. parameter declaration becomes local in wb_bram with formal parameter declaration lis
+INFO:HDLCompiler:693 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_bram/wb_bram.v" Line 26. parameter declaration becomes local in wb_bram with formal parameter declaration lis
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_uart/wb_uart.v" into library wor
 Parsing module <wb_uart>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_timer/wb_timer.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_timer/wb_timer.v" into library wor
 Parsing module <wb_timer>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_gpio/wb_gpio.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_gpio/wb_gpio.v" into library wor
 Parsing module <wb_gpio>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_pwm/wb_pwm.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_pwm/wb_pwm.v" into library wor
 Parsing module <wb_pwm>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_pwm/simple_pwm.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_pwm/simple_pwm.v" into library wor
 Parsing module <simplePWM>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_spi/wb_spi.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_spi/wb_spi.v" into library wor
 Parsing module <wb_spi>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_wb_top.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_wb_top.v" into library wor
 Parsing module <i2c_master_wb_top>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_registers.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/timescale.v" included at line 50.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_registers.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/timescale.v" included at line 50
 Parsing module <i2c_master_registers>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_byte_ctrl.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_defines.v" included at line 92.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_byte_ctrl.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_defines.v" included at line 92
 Parsing module <i2c_master_byte_ctrl>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_bit_ctrl.v" into library work
-Parsing verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_defines.v" included at line 147.
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_bit_ctrl.v" into library wor
+Parsing verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_defines.v" included at line 147
 Parsing module <i2c_master_bit_ctrl>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_conbus/conbus.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_conbus/conbus.v" into library wor
 Parsing module <conbus>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_conbus/conbus_arb.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_conbus/conbus_arb.v" into library wor
 Parsing module <conbus_arb>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu.v" into library wor
 Parsing module <pfpu>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_above.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_above.v" into library wor
 Parsing module <pfpu_above>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_addrgen.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_addrgen.v" into library wor
 Parsing module <pfpu_counters>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_alu.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_alu.v" into library wor
 Parsing module <pfpu_alu>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_clz32.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_clz32.v" into library wor
 Parsing module <pfpu_clz32>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_copy.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_copy.v" into library wor
 Parsing module <pfpu_copy>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_ctlif.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_ctlif.v" into library wor
 Parsing module <pfpu_ctlif>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_dma.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_dma.v" into library wor
 Parsing module <pfpu_dma>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_equal.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_equal.v" into library wor
 Parsing module <pfpu_equal>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_f2i.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_f2i.v" into library wor
 Parsing module <pfpu_f2i>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_faddsub.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_faddsub.v" into library wor
 Parsing module <pfpu_faddsub>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_fmul.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_fmul.v" into library wor
 Parsing module <pfpu_fmul>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_i2f.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_i2f.v" into library wor
 Parsing module <pfpu_i2f>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_if.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_if.v" into library wor
 Parsing module <pfpu_if>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_prog.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_prog.v" into library wor
 Parsing module <pfpu_prog>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_quake.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_quake.v" into library wor
 Parsing module <pfpu_quake>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_regf.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_regf.v" into library wor
 Parsing module <pfpu_regf>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_seq.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_seq.v" into library wor
 Parsing module <pfpu_seq>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_sincos.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_sincos.v" into library wor
 Parsing module <pfpu_sincos>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_tpram.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_tpram.v" into library wor
 Parsing module <pfpu_tpram>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/pfpu/rtl/pfpu_tsign.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/pfpu/rtl/pfpu_tsign.v" into library wor
 Parsing module <pfpu_tsign>.
-Analyzing Verilog file "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/csrbrg/rtl/csrbrg.v" into library work
+Analyzing Verilog file "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/csrbrg/rtl/csrbrg.v" into library wor
 Parsing module <csrbrg>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 187: Port m0_cti_i is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 446: Port intr is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 472: Port arst_i is not connected to this instance
+WARNING:HDLCompiler:1016 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 187: Port m0_cti_i is not connected to this instance
+WARNING:HDLCompiler:1016 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 446: Port intr is not connected to this instance
+WARNING:HDLCompiler:1016 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 472: Port arst_i is not connected to this instance
 
 Elaborating module <system>.
 
 Elaborating module <conbus(s_addr_w=3,s0_addr=3'b0,s1_addr=3'b010,s2_addr=3'b011,s3_addr=3'b100,s4_addr=3'b101,s5_addr=3'b110,s6_addr=3'b111)>.
 
 Elaborating module <conbus_arb>.
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 226: Assignment to pfpubus_ack ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 277: Assignment to i2c0_sel ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 226: Assignment to pfpubus_ack ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 277: Assignment to i2c0_sel ignored, since the identifier is never used
 
 Elaborating module <lm32_cpu>.
 
 Elaborating module <lm32_instruction_unit(associativity=1,sets=512,bytes_per_line=16,base_address=0,limit=0)>.
-"/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_instruction_unit.v" Line 699. $display Instruction bus error. Address: 0
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" Line 461: Assignment to pc_x ignored, since the identifier is never used
+"/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_instruction_unit.v" Line 699. $display Instruction bus error. Address: 
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lm32/lm32_cpu.v" Line 461: Assignment to pc_x ignored, since the identifier is never used
 
 Elaborating module <lm32_simtrace>.
-WARNING:HDLCompiler:1499 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_simtrace.v" Line 20: Empty module <lm32_simtrace> remains a black box.
+WARNING:HDLCompiler:1499 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lm32/lm32_simtrace.v" Line 20: Empty module <lm32_simtrace> remains a black box.
 
 Elaborating module <lm32_decoder>.
-WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_decoder.v" Line 559: Result of 32-bit expression is truncated to fit in 30-bit target.
+WARNING:HDLCompiler:413 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lm32/lm32_decoder.v" Line 559: Result of 32-bit expression is truncated to fit in 30-bit target.
 
 Elaborating module <lm32_load_store_unit(associativity=1,sets=512,bytes_per_line=16,base_address=0,limit=0)>.
 
@@ -232,19 +232,19 @@ Elaborating module <lm32_multiplier>.
 Elaborating module <lm32_mc_arithmetic>.
 
 Elaborating module <lm32_interrupt>.
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to x_result_sel_logic_x ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 311: Assignment to lm32i_cti ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 312: Assignment to lm32i_lock ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 313: Assignment to lm32i_bte ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 325: Assignment to lm32d_cti ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 326: Assignment to lm32d_lock ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 327: Assignment to lm32d_bte ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 359: Assignment to pfpu_irq ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to x_result_sel_logic_x ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 311: Assignment to lm32i_cti ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 312: Assignment to lm32i_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 313: Assignment to lm32i_bte ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 325: Assignment to lm32d_cti ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 326: Assignment to lm32d_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 327: Assignment to lm32d_bte ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 359: Assignment to pfpu_irq ignored, since the identifier is never used
 
 Elaborating module <csrbrg>.
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 384: Assignment to csr_a ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 385: Assignment to csr_we ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 386: Assignment to csr_dw ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 384: Assignment to csr_a ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 385: Assignment to csr_we ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 386: Assignment to csr_dw ignored, since the identifier is never used
 
 Elaborating module <wb_bram(adr_width=12,mem_file_name="../firmware/hw-test/image.ram")>.
 Reading initialization file \"../firmware/hw-test/image.ram\".
@@ -252,73 +252,73 @@ Reading initialization file \"../firmware/hw-test/image.ram\".
 Elaborating module <wb_uart(clk_freq=100000000,baud=115200)>.
 
 Elaborating module <uart(freq_hz=100000000,baud=115200)>.
-WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 39: Result of 32-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 135: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v" Line 138: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lac/uart.v" Line 39: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lac/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lac/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lac/uart.v" Line 135: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/lac/uart.v" Line 138: Result of 5-bit expression is truncated to fit in 4-bit target.
 
 Elaborating module <i2c_master_wb_top>.
 
 Elaborating module <i2c_master_byte_ctrl>.
-WARNING:HDLCompiler:1308 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_byte_ctrl.v" Line 257: Found full_case directive in module i2c_master_byte_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/wb_i2c/i2c_master_byte_ctrl.v" Line 257: Found full_case directive in module i2c_master_byte_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 
 Elaborating module <i2c_master_bit_ctrl>.
-WARNING:HDLCompiler:1308 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_bit_ctrl.v" Line 376: Found full_case directive in module i2c_master_bit_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/rtl/wb_i2c/i2c_master_bit_ctrl.v" Line 376: Found full_case directive in module i2c_master_bit_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 
 Elaborating module <i2c_master_registers>.
-WARNING:HDLCompiler:189 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 476: Size mismatch in connection of port <wb_adr_i>. Formal port size is 3-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 477: Size mismatch in connection of port <wb_dat_i>. Formal port size is 8-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 478: Size mismatch in connection of port <wb_dat_o>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 476: Size mismatch in connection of port <wb_adr_i>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 477: Size mismatch in connection of port <wb_dat_i>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 478: Size mismatch in connection of port <wb_dat_o>. Formal port size is 8-bit while actual signal size is 32-bit.
 
 Elaborating module <wb_timer(clk_freq=100000000)>.
 
 Elaborating module <wb_pwm>.
 
 Elaborating module <simplePWM>.
-WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 151: Net <lm32i_rty> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 152: Net <lm32d_rty> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 154: Net <lm32i_err> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 155: Net <lm32d_err> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 374: Net <sys_rst> does not have a driver.
-WARNING:HDLCompiler:552 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 196: Input port m0_cti_i[2] is not connected on this instance
-WARNING:HDLCompiler:552 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" Line 472: Input port arst_i is not connected on this instance
-WARNING:Xst:2972 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" line 483. All outputs of instance <simtrace> of block <lm32_simtrace> are unconnected in block <lm32_cpu>. Underlying logic will be removed.
+WARNING:HDLCompiler:634 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 151: Net <lm32i_rty> does not have a driver.
+WARNING:HDLCompiler:634 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 152: Net <lm32d_rty> does not have a driver.
+WARNING:HDLCompiler:634 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 154: Net <lm32i_err> does not have a driver.
+WARNING:HDLCompiler:634 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 155: Net <lm32d_err> does not have a driver.
+WARNING:HDLCompiler:634 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 374: Net <sys_rst> does not have a driver.
+WARNING:HDLCompiler:552 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 196: Input port m0_cti_i[2] is not connected on this instance
+WARNING:HDLCompiler:552 - "/mnt/Datos/Libros/Digital/Proyecto/C  mara/Quadcopter/system.v" Line 472: Input port arst_i is not connected on this instance
+WARNING:Xst:2972 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_cpu.v" line 483. All outputs of instance <simtrace> of block <lm32_simtrace> are unconnected in block <lm32_cpu>. Underlying logic will be removed
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v"
         bootram_file = "../firmware/hw-test/image.ram"
         clk_freq = 100000000
         uart_baud_rate = 115200
 WARNING:Xst:2898 - Port 'm0_cti_i', unconnected in block instance 'conbus0', is tied to GND.
 WARNING:Xst:2898 - Port 'm1_cti_i', unconnected in block instance 'conbus0', is tied to GND.
 WARNING:Xst:2898 - Port 'arst_i', unconnected in block instance 'i2c0', is tied to GND.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <m2_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s0_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s1_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s2_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s3_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s4_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s5_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s5_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s6_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <s6_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 196: Output port <m2_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 298: Output port <I_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 298: Output port <I_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 298: Output port <D_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 298: Output port <D_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 298: Output port <I_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 298: Output port <D_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 372: Output port <csr_a> of the instance <csrbrg> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 372: Output port <csr_do> of the instance <csrbrg> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 372: Output port <csr_we> of the instance <csrbrg> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 449: Output port <intr> of the instance <uart1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/system.v" line 472: Output port <wb_inta_o> of the instance <i2c0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <m2_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s0_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s1_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s2_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s3_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s4_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s5_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s5_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s6_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <s6_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 196: Output port <m2_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 298: Output port <I_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 298: Output port <I_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 298: Output port <D_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 298: Output port <D_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 298: Output port <I_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 298: Output port <D_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 372: Output port <csr_a> of the instance <csrbrg> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 372: Output port <csr_do> of the instance <csrbrg> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 372: Output port <csr_we> of the instance <csrbrg> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 449: Output port <intr> of the instance <uart1> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/system.v" line 472: Output port <wb_inta_o> of the instance <i2c0> is unconnected or connected to loadless signal
 WARNING:Xst:653 - Signal <lm32i_rty> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <lm32d_rty> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <lm32i_err> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -329,7 +329,7 @@ WARNING:Xst:653 - Signal <sys_rst> is used but never assigned. This sourceless s
 Unit <system> synthesized.
 
 Synthesizing Unit <conbus>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_conbus/conbus.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_conbus/conbus.v"
         s_addr_w = 3
         s0_addr = 3'b000
         s1_addr = 3'b010
@@ -345,7 +345,7 @@ WARNING:Xst:647 - Input <s6_ack_i> is never used. This port will be preserved an
 Unit <conbus> synthesized.
 
 Synthesizing Unit <conbus_arb>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_conbus/conbus_arb.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_conbus/conbus_arb.v"
         grant0 = 7'b0000001
         grant1 = 7'b0000010
         grant2 = 7'b0000100
@@ -372,7 +372,7 @@ Synthesizing Unit <conbus_arb>.
 Unit <conbus_arb> synthesized.
 
 Synthesizing Unit <lm32_cpu>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_cpu.v"
         eba_reset = 32'b00000000000000000000000000000000
         icache_associativity = 1
         icache_sets = 512
@@ -387,8 +387,8 @@ Synthesizing Unit <lm32_cpu>.
         watchpoints = 4'b0000
         breakpoints = 4'b0000
         interrupts = 32
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" line 436: Output port <pc_x> of the instance <instruction_unit> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_cpu.v" line 495: Output port <x_result_sel_logic> of the instance <decoder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_cpu.v" line 436: Output port <pc_x> of the instance <instruction_unit> is unconnected or connected to loadless signal
+INFO:Xst:3210 - "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_cpu.v" line 495: Output port <x_result_sel_logic> of the instance <decoder> is unconnected or connected to loadless signal
     Found 32-bit register for signal <operand_0_x>.
     Found 32-bit register for signal <operand_1_x>.
     Found 32-bit register for signal <store_operand_x>.
@@ -466,7 +466,7 @@ INFO:Xst:3210 - "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm3
 Unit <lm32_cpu> synthesized.
 
 Synthesizing Unit <lm32_instruction_unit>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_instruction_unit.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_instruction_unit.v"
         associativity = 1
         sets = 512
         bytes_per_line = 16
@@ -495,13 +495,13 @@ WARNING:Xst:647 - Input <i_rty_i> is never used. This port will be preserved and
 Unit <lm32_instruction_unit> synthesized.
 
 Synthesizing Unit <lm32_decoder>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_decoder.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_decoder.v"
     Summary:
 	inferred  19 Multiplexer(s).
 Unit <lm32_decoder> synthesized.
 
 Synthesizing Unit <lm32_load_store_unit>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_load_store_unit.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_load_store_unit.v"
         associativity = 1
         sets = 512
         bytes_per_line = 16
@@ -535,13 +535,13 @@ WARNING:Xst:647 - Input <d_rty_i> is never used. This port will be preserved and
 Unit <lm32_load_store_unit> synthesized.
 
 Synthesizing Unit <lm32_adder>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_adder.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_adder.v"
     Summary:
 	no macro.
 Unit <lm32_adder> synthesized.
 
 Synthesizing Unit <lm32_addsub>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_addsub.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_addsub.v"
     Found 33-bit subtractor for signal <GND_15_o_GND_15_o_sub_3_OUT> created at line 63.
     Found 33-bit subtractor for signal <tmp_subResult> created at line 63.
     Found 33-bit adder for signal <n0025> created at line 62.
@@ -552,7 +552,7 @@ Synthesizing Unit <lm32_addsub>.
 Unit <lm32_addsub> synthesized.
 
 Synthesizing Unit <lm32_logic_op>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_logic_op.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_logic_op.v"
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<0>> created at line 67.
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<1>> created at line 67.
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<2>> created at line 67.
@@ -590,7 +590,7 @@ Synthesizing Unit <lm32_logic_op>.
 Unit <lm32_logic_op> synthesized.
 
 Synthesizing Unit <lm32_multiplier>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_multiplier.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_multiplier.v"
     Found 32-bit register for signal <multiplier>.
     Found 32-bit register for signal <product>.
     Found 32-bit register for signal <result>.
@@ -602,7 +602,7 @@ Synthesizing Unit <lm32_multiplier>.
 Unit <lm32_multiplier> synthesized.
 
 Synthesizing Unit <lm32_mc_arithmetic>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_mc_arithmetic.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_mc_arithmetic.v"
     Found 32-bit register for signal <p>.
     Found 32-bit register for signal <a>.
     Found 32-bit register for signal <b>.
@@ -633,7 +633,7 @@ Synthesizing Unit <lm32_mc_arithmetic>.
 Unit <lm32_mc_arithmetic> synthesized.
 
 Synthesizing Unit <lm32_interrupt>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lm32/lm32_interrupt.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lm32/lm32_interrupt.v"
         interrupts = 32
     Found 32-bit register for signal <im>.
     Found 32-bit register for signal <ip>.
@@ -646,7 +646,7 @@ Synthesizing Unit <lm32_interrupt>.
 Unit <lm32_interrupt> synthesized.
 
 Synthesizing Unit <csrbrg>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/cores/csrbrg/rtl/csrbrg.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/cores/csrbrg/rtl/csrbrg.v"
         IDLE = 2'b00
         DELAYACK1 = 2'b01
         DELAYACK2 = 2'b10
@@ -667,7 +667,7 @@ WARNING:Xst:647 - Input <wb_adr_i<31:16>> is never used. This port will be prese
 Unit <csrbrg> synthesized.
 
 Synthesizing Unit <wb_bram>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_bram/wb_bram.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_bram/wb_bram.v"
         mem_file_name = "../firmware/hw-test/image.ram"
         adr_width = 12
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -683,7 +683,7 @@ WARNING:Xst:647 - Input <rst_i> is never used. This port will be preserved and l
 Unit <wb_bram> synthesized.
 
 Synthesizing Unit <wb_uart>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_uart/wb_uart.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_uart/wb_uart.v"
         clk_freq = 100000000
         baud = 115200
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -732,7 +732,7 @@ WARNING:Xst:653 - Signal <intr> is used but never assigned. This sourceless sign
 Unit <wb_uart> synthesized.
 
 Synthesizing Unit <uart>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/lac/uart.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/lac/uart.v"
         freq_hz = 100000000
         baud = 115200
     Found 1-bit register for signal <uart_rxd1>.
@@ -762,7 +762,7 @@ Synthesizing Unit <uart>.
 Unit <uart> synthesized.
 
 Synthesizing Unit <i2c_master_wb_top>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_wb_top.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_wb_top.v"
         ARST_LVL = 1'b0
     Found 8-bit register for signal <wb_dat_o>.
     Found 1-bit register for signal <wb_inta_o>.
@@ -777,7 +777,7 @@ Synthesizing Unit <i2c_master_wb_top>.
 Unit <i2c_master_wb_top> synthesized.
 
 Synthesizing Unit <i2c_master_byte_ctrl>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_byte_ctrl.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_byte_ctrl.v"
         ST_IDLE = 5'b00000
         ST_START = 5'b00001
         ST_READ = 5'b00010
@@ -816,7 +816,7 @@ WARNING:Xst:647 - Input <clk_cnt> is never used. This port will be preserved and
 Unit <i2c_master_byte_ctrl> synthesized.
 
 Synthesizing Unit <i2c_master_bit_ctrl>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_bit_ctrl.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_bit_ctrl.v"
         idle = 17'b00000000000000000
         start_a = 17'b00000000000000001
         start_b = 17'b00000000000000010
@@ -875,7 +875,7 @@ Synthesizing Unit <i2c_master_bit_ctrl>.
 Unit <i2c_master_bit_ctrl> synthesized.
 
 Synthesizing Unit <i2c_master_registers>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_i2c/i2c_master_registers.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_i2c/i2c_master_registers.v"
     Found 16-bit register for signal <prer>.
     Found 8-bit register for signal <ctr>.
     Found 8-bit register for signal <txr>.
@@ -897,7 +897,7 @@ Synthesizing Unit <i2c_master_registers>.
 Unit <i2c_master_registers> synthesized.
 
 Synthesizing Unit <wb_timer>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_timer/wb_timer.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_timer/wb_timer.v"
         clk_freq = 100000000
 WARNING:Xst:647 - Input <wb_adr_i<31:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -928,7 +928,7 @@ WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved an
 Unit <wb_timer> synthesized.
 
 Synthesizing Unit <wb_pwm>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_pwm/wb_pwm.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_pwm/wb_pwm.v"
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_adr_i<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -968,7 +968,7 @@ WARNING:Xst:653 - Signal <wb_dat_o<7:0>> is used but never assigned. This source
 Unit <wb_pwm> synthesized.
 
 Synthesizing Unit <simplePWM>.
-    Related source file is "/home/raparram/Escritorio/lm32-Qcopter_H vr. 25.05/rtl/wb_pwm/simple_pwm.v".
+    Related source file is "/mnt/Datos/Libros/Digital/Proyecto/Cámara/Quadcopter/rtl/wb_pwm/simple_pwm.v"
     Found 32-bit register for signal <timeWork_reg>.
     Found 1-bit register for signal <enable>.
     Found 32-bit register for signal <counter>.
@@ -1988,13 +1988,13 @@ clk            |   12.519|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 38.00 secs
-Total CPU time to Xst completion: 35.76 secs
+Total REAL time to Xst completion: 35.00 secs
+Total CPU time to Xst completion: 33.90 secs
  
 --> 
 
 
-Total memory usage is 422688 kilobytes
+Total memory usage is 411520 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  394 (   0 filtered)

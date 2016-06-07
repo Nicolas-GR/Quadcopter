@@ -1,13 +1,13 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ryu-pc::  Tue May 31 08:59:04 2016
+nguerrero-Aspire-E1-432::  Wed Jun 01 13:08:02 2016
 
 par -ol high -w system.ncd system-routed.ncd 
 
 
 Constraints file: system.pcf.
-Loading device for application Rf_Device from file '6slx16.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
+Loading device for application Rf_Device from file '6slx16.nph' in environment /mnt/Datos/Xilinx/14.7/ISE_DS/ISE/.
    "system" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
@@ -98,7 +98,7 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 11 secs 
+Starting initial Timing Analysis.  REAL time: 10 secs 
 Finished initial Timing Analysis.  REAL time: 11 secs 
 
 Starting Router
@@ -110,7 +110,7 @@ Phase  2  : 10637 unrouted;      REAL time: 13 secs
 
 Phase  3  : 4644 unrouted;      REAL time: 24 secs 
 
-Phase  4  : 4669 unrouted; (Setup:21727, Hold:0, Component Switching Limit:0)     REAL time: 27 secs 
+Phase  4  : 4669 unrouted; (Setup:21727, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
 Updating file: system-routed.ncd with current fully routed design.
 
@@ -128,7 +128,7 @@ Phase  9  : 0 unrouted; (Setup:26372, Hold:0, Component Switching Limit:0)     R
 
 Phase 10  : 0 unrouted; (Setup:25862, Hold:0, Component Switching Limit:0)     REAL time: 59 secs 
 Total REAL time to Router completion: 59 secs 
-Total CPU time to Router completion: 1 mins 1 secs 
+Total CPU time to Router completion: 1 mins 
 
 Partition Implementation Status
 -------------------------------
@@ -175,29 +175,15 @@ WARNING:Par:468 - Your design did not meet timing.  The following are some sugge
    TechXclusives->Timing Closure" for tips and suggestions for meeting timing
    in your design.
 
-Asterisk (*) preceding a constraint indicates it was not met.
-   This may be due to a setup or hold violation.
-
-----------------------------------------------------------------------------------------------------------
-  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
-                                            |             |    Slack   | Achievable | Errors |    Score   
-----------------------------------------------------------------------------------------------------------
-* TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |    -1.990ns|    11.990ns|      15|       25862
-  pin" 100 MHz HIGH 50%                     | HOLD        |     0.364ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-
-
-1 constraint not met.
-
 
 Generating Pad Report.
 
 All signals are completely routed.
 
 Total REAL time to PAR completion: 1 mins 2 secs 
-Total CPU time to PAR completion: 1 mins 4 secs 
+Total CPU time to PAR completion: 1 mins 2 secs 
 
-Peak Memory Usage:  713 MB
+Peak Memory Usage:  718 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
