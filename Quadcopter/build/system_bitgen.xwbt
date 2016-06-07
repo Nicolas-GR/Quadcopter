@@ -1,0 +1,7 @@
+INFILE=/home/gaby/Escritorio/Junio7/UnionTodo/build/system-routed.ncd
+OUTFILE=/home/gaby/Escritorio/Junio7/UnionTodo/build/system.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/gaby/Escritorio/Junio7/UnionTodo/build
+LICENSE=WebPack
+USER_INFO=211093682_0_0_151
