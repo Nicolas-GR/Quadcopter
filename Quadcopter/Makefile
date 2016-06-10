@@ -138,6 +138,9 @@ timing: system-routed.twr
 
 usage: system-routed.xdl
 	xdlanalyze.pl system-routed.xdl $(USAGE_DEPTH)
+	
+upload: system.bit
+	djtgcfg prog -d Nexys3 -i 0 -f system.bit
 
 ####################################################################
 # final targets
