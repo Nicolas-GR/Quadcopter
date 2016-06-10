@@ -73,7 +73,6 @@ always @(posedge clk_n) begin
 	endcase
 end
 
-
 always @(posedge clk) begin
    if(reset) begin
 	  sclk_divider <= 7'd0;

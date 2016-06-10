@@ -18,7 +18,7 @@ module system
 	// UART
 	input             uart_rxd, 
 	output            uart_txd,
-	//output            led,
+	output            led,
 	// UART1	
 	input             uart_rxd1, 
 	output            uart_txd1,
@@ -32,16 +32,15 @@ module system
         input             ncs,
         // PWM
 	output	          [3:0]PWMmotors,	
-	//output		  [3:0]ledMotors,
-        // i2c
+	output		  [3:0]ledMotors,
         // I2C
 	inout		sda, 
-	output		scl,
+	output		scl
 	//output		doneR,
 	//output		doneW,
 	//output		busyR,
 	//output		busyW
-	output 		[6:0]i2c_data_out
+	//output 		[6:0]i2c_data_out
 	//output		ack
 
 
@@ -78,8 +77,8 @@ wire [31:0]  lm32i_dat_r,
 	     uart1_dat_w,
              timer0_dat_r,
              timer0_dat_w,
-	     pwm0_data_r,
-	     pwm0_data_w,
+	     pwm0_dat_r,
+	     pwm0_dat_w,
              gpio0_dat_r,
              gpio0_dat_w,
              i2c0_dat_r,   //yo
@@ -175,13 +174,13 @@ assign intr_n = { 28'hFFFFFFF, ~timer0_intr[1], ~gpio0_intr, ~timer0_intr[0], ~u
 //---------------------------------------------------------------------------
 conbus #(
 	.s_addr_w(3),
-	.s0_addr(3'b000),	// bram     0x00000000 
-	.s1_addr(3'b010),	// uart     0x20000000 
-	.s2_addr(3'b110),	// timer    0x60000000 
-	.s3_addr(3'b100),       // gpio     0x40000000 
-        .s4_addr(3'b001),        //i2c       0x10000000
-	.s5_addr(3'b011),        //uart1     0x300000
-	.s6_addr(3'b101)        //pwm      0x50000000
+	.s0_addr(3'b000),      // bram     0x00000000 
+	.s1_addr(3'b010),      // uart     0x20000000 
+	.s2_addr(3'b011),      // timer    0x30000000 
+	.s3_addr(3'b100),      // gpio	   0x40000000 
+    	.s4_addr(3'b101),      // i2c      0x50000000
+	.s5_addr(3'b110),      // uart1    0x60000000
+	.s6_addr(3'b111)       // pwm      0x70000000
 ) conbus0(
 	.sys_clk( clk ),
 	.sys_rst( ~rst ),
@@ -342,7 +341,7 @@ lm32_cpu lm0 (
 // Block RAM
 //---------------------------------------------------------------------------
 wb_bram #(
-	.adr_width( 12 ),
+	.adr_width( 14 ),
 	.mem_file_name( bootram_file )
 ) bram0 (
 	.clk_i(  clk  ),
@@ -386,7 +385,38 @@ wb_uart #(
 
 assign uart_txd  = uart0_txd;
 assign uart0_rxd = uart_rxd;
-//assign led       = ~uart_txd;
+assign led       = ~uart_txd;
+
+
+//---------------------------------------------------------------------------
+// uart1
+//---------------------------------------------------------------------------
+wire uart1_rxd;
+wire uart1_txd;
+
+wb_uart #(
+	.clk_freq( clk_freq        ),
+	.baud(     uart_baud_rate  )
+) uart1 (
+	.clk( clk ),
+	.reset( ~rst ),
+	//
+	.wb_adr_i( uart1_adr ),
+	.wb_dat_i( uart1_dat_w ),
+	.wb_dat_o( uart1_dat_r ),
+	.wb_stb_i( uart1_stb ),
+	.wb_cyc_i( uart1_cyc ),
+	.wb_we_i(  uart1_we ),
+	.wb_sel_i( uart1_sel ),
+	.wb_ack_o( uart1_ack ), 
+//	.intr(       uart1_intr ),
+	.uart_rxd( uart1_rxd ),
+	.uart_txd( uart1_txd )
+);
+
+assign uart_txd1  = uart1_txd;
+assign uart1_rxd = uart_rxd1;
+assign led1      = ~uart_txd1;
 
 
 //---------------------------------------------------------------------------
@@ -467,7 +497,6 @@ wb_i2c i2c0 (
 	//.led_i2c(led_i2c_wire)
 	//.ack_p(ack_wire)
 );
-
 assign sda = i2c0_sda;
 assign scl = i2c0_scl;
 //assign doneW = doneW_wire;
@@ -476,37 +505,6 @@ assign scl = i2c0_scl;
 //assign busyR = busyR_wire;
 assign i2c_data_out = i2c_wire;
 //assign ack = ack_wire;
-
-
-//---------------------------------------------------------------------------
-// uart1
-//---------------------------------------------------------------------------
-wire uart1_rxd;
-wire uart1_txd;
-
-wb_uart #(
-	.clk_freq( clk_freq        ),
-	.baud(     uart_baud_rate  )
-) uart1 (
-	.clk( clk ),
-	.reset( ~rst ),
-	//
-	.wb_adr_i( uart1_adr ),
-	.wb_dat_i( uart1_dat_w ),
-	.wb_dat_o( uart1_dat_r ),
-	.wb_stb_i( uart1_stb ),
-	.wb_cyc_i( uart1_cyc ),
-	.wb_we_i(  uart1_we ),
-	.wb_sel_i( uart1_sel ),
-	.wb_ack_o( uart1_ack ), 
-//	.intr(       uart1_intr ),
-	.uart_rxd( uart1_rxd ),
-	.uart_txd( uart1_txd )
-);
-
-assign uart_txd1  = uart1_txd;
-assign uart1_rxd = uart_rxd1;
-assign led1      = ~uart_txd1;
 
 
 
@@ -533,8 +531,9 @@ wb_pwm pwm0 (
 );
 
 assign  PWMmotors = pwm0motors;
-//assign ledMotors = pwm0motors;
+assign ledMotors = pwm0motors;
 
-
+//assign led = 1'b1;
 
 endmodule 
+

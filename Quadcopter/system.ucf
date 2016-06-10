@@ -14,14 +14,14 @@ Net "uart_rxd1" LOC = "N17" | IOSTANDARD="LVCMOS33";
 Net "uart_txd1" LOC = "N18" | IOSTANDARD="LVCMOS33"; 
 
 ## Leds
-Net "led1" LOC = U16 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L2P_CMPCLK, Sch name = LD0
-Net "i2c_data_out[6]" LOC = V16 |  IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L2N_CMPMOSI, Sch name = LD1
-Net "i2c_data_out[5]" LOC = U15 |  IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L5P, Sch name = LD2
-Net "i2c_data_out[4]" LOC = V15 |  IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L5N, Sch name = LD3
-Net "i2c_data_out[3]" LOC = "M11" | IOSTANDARD = "LVCMOS33";
-NET "i2c_data_out[2]" LOC = "N11" | IOSTANDARD = "LVCMOS33"; 
-NET "i2c_data_out[1]" LOC = "R11" | IOSTANDARD = "LVCMOS33"; 
-NET "i2c_data_out[0]" LOC = "T11" | IOSTANDARD = "LVCMOS33";
+Net "led" LOC = U16 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L2P_CMPCLK, Sch name = LD0
+Net "led1" LOC = "V16" |  IOSTANDARD = "LVCMOS33"; #Bank = 2, pin name = IO_L2N_CMPMOSI, Sch name = LD1
+#Net "PWMmotors[1]" LOC = "U15" |  IOSTANDARD = "LVCMOS33"; #Bank = 2, pin name = IO_L5P, Sch name = LD2
+#Net "PWMmotors[2]" LOC = "V15" |  IOSTANDARD = "LVCMOS33"; #Bank = 2, pin name = IO_L5N, Sch name = LD3
+Net "ledMotors[0]" LOC = "M11" | IOSTANDARD = "LVCMOS33";
+NET "ledMotors[1]" LOC = "N11" | IOSTANDARD = "LVCMOS33"; 
+NET "ledMotors[2]" LOC = "R11" | IOSTANDARD = "LVCMOS33"; 
+NET "ledMotors[3]" LOC = "T11" | IOSTANDARD = "LVCMOS33";
 
 ## Switches
 Net "rst" LOC = T10 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L29N_GCLK2, Sch name = SW0

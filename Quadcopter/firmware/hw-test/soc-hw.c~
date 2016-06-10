@@ -1,12 +1,16 @@
 #include "soc-hw.h"
 #include "string.h"
 
-uart_t  *uart0  = (uart_t *)   	0x20000000;
-timer_t *timer0 = (timer_t *)   0x30000000;
-gpio_t *gpio0 	= (gpio_t *)	0x40000000;
-i2c_t   *i2c0   = (i2c_t *)    	0x50000000;
-uart_t  *uart1  = (uart_t *)  	0x60000000;
-pwm_t   *pwm0   = (pwm_t *)	0x70000000;
+uart_t   *uart0  = (uart_t *)   0x20000000;
+timer_t  *timer0 = (timer_t *)  0x60000000;
+gpio_t   *gpio0  = (gpio_t *)   0x40000000;
+i2c_t    *i2c0   = (i2c_t *)    0x10000000;
+uart_t  *uart1  = (uart_t *)   0x30000000;
+pwm_t   *pwm0   = (pwm_t *)    0x50000000;
+
+
+
+
 
 isr_ptr_t isr_table[32];
 
@@ -49,6 +53,22 @@ void isr_unregister(int irq)
 /***************************************************************************
  * TIMER Functions
  */
+
+/*void sleep(int msec){
+
+	uint32_t tcr;
+
+	// Use timer0.1      
+	timer0->compare1 = (100000*msec);
+	timer0->counter1 = 0;
+	timer0->tcr1 = TIMER_EN | TIMER_IRQEN;
+
+	do {
+		//halt();
+ 		tcr = timer0->tcr1;
+	 	} while ( ! (tcr & TIMER_TRIG) );
+	}
+}*/
 void msleep(uint32_t msec)
 {
 	uint32_t tcr;
@@ -57,11 +77,11 @@ void msleep(uint32_t msec)
 	timer0->compare1 = (FCPU/1000)*msec;
 	timer0->counter1 = 0;
 	timer0->tcr1 = TIMER_EN;
-	// | TIMER_IRQEN;
+// | TIMER_IRQEN;
 	do {
 		//halt();
-		tcr = timer0->tcr1;
-	} while ( ! (tcr & TIMER_TRIG) );
+ 		tcr = timer0->tcr1;
+ 	} while ( ! (tcr & TIMER_TRIG) );
 }
 void sleep(int msec){
 
@@ -74,8 +94,8 @@ void sleep(int msec){
 
 	do {
 		//halt();
-		tcr = timer0->tcr1;
-	} while ( ! (tcr & TIMER_TRIG) );
+ 		tcr = timer0->tcr1;
+ 	} while ( ! (tcr & TIMER_TRIG) );
 }
 
 void nsleep(uint32_t nsec)
@@ -89,8 +109,8 @@ void nsleep(uint32_t nsec)
 
 	do {
 		//halt();
-		tcr = timer0->tcr1;
-	} while ( ! (tcr & TIMER_TRIG) );
+ 		tcr = timer0->tcr1;
+ 	} while ( ! (tcr & TIMER_TRIG) );
 }
 uint32_t tic_msec;
 
@@ -222,27 +242,27 @@ void uart_putstr1(char *str)
 	}
 }
 /*****************************************************************************
- * GPIO Functions
- */
+* GPIO Functions
+*/
 
 
 void write_dir(char dir)
 {
-	gpio0->gpio_dir=dir;
+  gpio0->gpio_dir=dir;
 
 }
 
 
 void write_data(char data)
 {
-	gpio0->gpio_o=data; 
+  gpio0->gpio_o=data; 
 
 }
 
 
 char read_data()
 {
-	return gpio0->gpio_i;
+    return gpio0->gpio_i;
 
 }
 
@@ -268,12 +288,8 @@ void set_motor4(int wk){
 }
 
 /***************************************************************************
- * Functions motors //
+ * Functions motors //FUNCIONES PRIMITIVAS
  */
-int velM1=0xEA60;
-int velM2=0xEA60;
-int velM3=0xEA60;
-int velM4=0xEA60;
 
 void setMotors(){
 	set_period(0x1E8480); //F=50Hz
@@ -281,27 +297,30 @@ void setMotors(){
 	set_motor2(0xEA60);
 	set_motor3(0xEA60);
 	set_motor4(0xEA60);
-	msleep(0x5E8);
+	msleep(0x3E8);
 }
 
-void forward_backward(){}
-void rght_lft(){}
-	
-void testMotos(){
-	set_motor1(0X5DC+0xFD20); //0x10FC=0X5DC+0xFD20
-	set_motor2(0X5DC+0xFD20);
-	set_motor3(0X5DC+0xFD20);
-	set_motor4(0X5DC+0xFD20);
-	msleep(3000);
-	set_motor1(0xEA60); 
-	set_motor2(0xEA60);
-	set_motor3(0xEA60);
-	set_motor4(0xEA60);
+void up_down_q(int s){
+	int vel;
+	int velM3;
+	if(s>=0x1){
+		vel = 0x5DC * s + 0xFD20;
+		
+	}
+	else{
+		vel= 0xEA60;
+		velM3 = 0xEA60; 
+	}
+	set_motor1(vel);
+	set_motor2(vel);
+	set_motor3(vel);
+	set_motor4(vel);
 }
+
 
 /******************************************************************************
- * i2c Functons
- */
+* i2c Functons
+*/
 void start_Read (int r)
 {  i2c0->startRead = r;
 }
@@ -315,106 +334,104 @@ void rw(int data_rw){
 void i2c_write (int dirI2C, int dirIntern, int data)
 {		
 	start_Write(1);
-	msleep(10);
-	start_Write(0);
+   	msleep(10);
+   	start_Write(0);
 	rw(0); 
-	while((i2c0->availWrite)==0x00);
+        while((i2c0->availWrite)==0x00);
 	i2c0->data = ((dirI2C<<16)|(dirIntern<<8)|data);	
-
+	
 }
 
-int8_t i2c_read (int dirI2C, int dirIntern){  
+
+char i2c_read (int dirI2C, int dirIntern)
+{  
 	start_Read(1);
 	msleep(10);
 	start_Read(0);
 	rw(1);
 	while((i2c0->availRead)==0x04);
 	i2c0->data = ((dirI2C<<15)|(dirIntern<<7)|dirI2C);
-	return i2c0->i2c_data_out;
+		return i2c0->i2c_data_out;   
+  
 }
 
-/******************************************************************************
- * mpu6050 Functions
- */
 void initImu(){
 	//Reset device, reset all registers, clear gyro and accelerometer bias registers		
-	i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x80);
-	sleep(100); 
-	//Get stable time source
-	i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x01);
-	i2c_write(ADDRESS_I2C,PWR_MGMT_2,0x00);
-	sleep(200);
-	// Configure device for bias calculation
-	i2c_write(ADDRESS_I2C,INT_ENABLE,0x00);
-	i2c_write(ADDRESS_I2C,FIFO_EN,0x00);
-	i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x00);
-	i2c_write(ADDRESS_I2C,I2C_MST_CTRL,0x00);
-	i2c_write(ADDRESS_I2C,USER_CTRL,0x00);
-	i2c_write(ADDRESS_I2C,USER_CTRL,0x0C);
-	sleep(15);
-	// Configure MPU6050 gyro and accelerometer for bias calculation
-	i2c_write(ADDRESS_I2C,CONFIG,0x01);
-	i2c_write(ADDRESS_I2C,SMPLRT_DIV,0x00);
-	i2c_write(ADDRESS_I2C,GYRO_CONFIG,0x01);
-	i2c_write(ADDRESS_I2C,ACCEL_CONFIG,0x00);
-	// Configure FIFO to capture accelerometer and gyro data for bias calculation
-	i2c_write(ADDRESS_I2C,USER_CTRL,0x40);
-	i2c_write(ADDRESS_I2C,ACCEL_CONFIG,0x78);
-	sleep(80);
+		i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x80);
+		sleep(100); 
+		//Get stable time source
+		i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x01);
+		i2c_write(ADDRESS_I2C,PWR_MGMT_2,0x00);
+		sleep(200);
+		// Configure device for bias calculation
+		i2c_write(ADDRESS_I2C,INT_ENABLE,0x00);
+		i2c_write(ADDRESS_I2C,FIFO_EN,0x00);
+		i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x00);
+		i2c_write(ADDRESS_I2C,I2C_MST_CTRL,0x00);
+		i2c_write(ADDRESS_I2C,USER_CTRL,0x00);
+		i2c_write(ADDRESS_I2C,USER_CTRL,0x0C);
+		sleep(15);
+		// Configure MPU6050 gyro and accelerometer for bias calculation
+		i2c_write(ADDRESS_I2C,CONFIG,0x01);
+		i2c_write(ADDRESS_I2C,SMPLRT_DIV,0x00);
+		i2c_write(ADDRESS_I2C,GYRO_CONFIG,0x01);
+		i2c_write(ADDRESS_I2C,ACCEL_CONFIG,0x00);
+		// Configure FIFO to capture accelerometer and gyro data for bias calculation
+		i2c_write(ADDRESS_I2C,USER_CTRL,0x40);
+		i2c_write(ADDRESS_I2C,ACCEL_CONFIG,0x78);
+		sleep(80);
 }
+ 
+ int getAcX(){
+ 		char AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
+		sleep(1);
+		char AcXl = i2c_read (ADDRESS_I2C, ACCEL_XOUT_L);
+		sleep(1);
+		int acX= (AcXh<<8)+AcXl;
+		return acX;
+ }
+ 
+ int getAcY(){
+		char AcYh = i2c_read (ADDRESS_I2C, ACCEL_YOUT_H);
+		sleep(1);
+		char AcYl = i2c_read (ADDRESS_I2C, ACCEL_YOUT_L);
+		sleep(1);
+		int acY= (AcYh<<8)+AcYl;
+		return acY;
+ 
+ }
+ int getAcZ(){
+ 		char AcZh = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_H);
+		sleep(1);
+		char AcZl = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_L);
+		sleep(1);
+		int acZ= (AcZh<<8)+AcZl;
+		return acZ;	
+ }
+ int getGx(){
+ 		char Gxh = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
+		sleep(1);
+		char Gxl = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
+		sleep(1);
+		int Gx= (Gxh<<8)+Gxl;
+		return Gx;
+		}
+ int getGy(){
+		char Gyh = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
+		uart_putchar1(Gxh);
+		sleep(1);
+		char Gyl = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
+		uart_putchar1(Gxh);
+		sleep(1);
+		int 
+		}
+ int getGz(){
+		char Gzh = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
+		uart_putchar1(Gxh);
+		sleep(1000);
+		char Gzl = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
+		uart_putchar1(Gxh);
+		sleep(1000);
+		}
 
-int getAcX(){
-	int8_t AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
-	sleep(1);
-	char AcXl = i2c_read (ADDRESS_I2C, ACCEL_XOUT_L);
-	sleep(1);
-	int acX= (AcXh<<8)+AcXl;
-	return acX;
-}
-
-int getAcY(){
-	int8_t AcYh = i2c_read (ADDRESS_I2C, ACCEL_YOUT_H);
-	sleep(1);
-	char AcYl = i2c_read (ADDRESS_I2C, ACCEL_YOUT_L);
-	sleep(1);
-	int acY= (AcYh<<8)+AcYl;
-	return acY;
-
-}
-int getAcZ(){
-	int8_t AcZh = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_H);
-	sleep(1);
-	char AcZl = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_L);
-	sleep(1);
-	int acZ= (AcZh<<8)+AcZl;
-	return acZ;	
-}
-/*
-int getGx(){
-	char Gxh = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
-	sleep(1);
-	char Gxl = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
-	sleep(1);
-	int Gx= (Gxh<<8)+Gxl;
-	return Gx;
-}
-
-int getGy(){
-	char Gyh = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
-	sleep(1);
-	char Gyl = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
-	sleep(1);
-	int Gy= (Gyh<<8)+Gyl;
-	return Gx;
-}
-
-int getGz(){
-	char Gzh = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
-	sleep(1);
-	char Gzl = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
-	sleep(1);
-	int Gz= (Gzh<<8)+Gzl;
-	return Gz;
-}
-*/
 

@@ -15,34 +15,6 @@
 
 
 
-//Register MPU6050
-#define ADDRESS_I2C	0x68
-#define PWR_MGMT_1 	0x6B
-#define PWR_MGMT_2 	0x6C
-#define INT_ENABLE 	0x38
-#define FIFO_EN    	0x23
-#define I2C_MST_CTRL	0x24
-#define USER_CTRL 	0x6A
-#define CONFIG		0x1A
-#define SMPLRT_DIV	0x19
-#define GYRO_CONFIG	0x1B
-#define ACCEL_CONFIG	0x1C
-#define FIFO_EN		0x23
-#define ACCEL_XOUT_H 	0x3B
-#define ACCEL_XOUT_L    0x3C
-#define ACCEL_YOUT_H     0x3D
-#define ACCEL_YOUT_L     0x3E
-#define ACCEL_ZOUT_H     0x3F
-#define ACCEL_ZOUT_L     0x40
-#define TEMP_OUT_H       0x41
-#define TEMP_OUT_L       0x42
-#define GYRO_XOUT_H      0x43
-#define GYRO_XOUT_L      0x44
-#define GYRO_YOUT_H      0x45
-#define GYRO_YOUT_L      0x46
-#define GYRO_ZOUT_H      0x47
-#define GYRO_ZOUT_L      0x48
-
 /****************************************************************************
  * Types
  */
@@ -110,9 +82,6 @@ typedef struct {
 	
 } gpio_t;
 
-
-
-
 void write_dir(char dir);
 void write_data(char data);
 char read_data();
@@ -142,7 +111,33 @@ char uart_getchar1();
  *  i2c0
  */
 
-
+//Register MPU6050
+#define ADDRESS_I2C	0x68
+#define PWR_MGMT_1 	0x6B
+#define PWR_MGMT_2 	0x6C
+#define INT_ENABLE 	0x38
+#define FIFO_EN    	0x23
+#define I2C_MST_CTRL	0x24
+#define USER_CTRL 	0x6A
+#define CONFIG		0x1A
+#define SMPLRT_DIV	0x19
+#define GYRO_CONFIG	0x1B
+#define ACCEL_CONFIG	0x1C
+#define FIFO_EN		0x23
+#define ACCEL_XOUT_H 	0x3B
+#define ACCEL_XOUT_L    0x3C
+#define ACCEL_YOUT_H    0x3D
+#define ACCEL_YOUT_L    0x3E
+#define ACCEL_ZOUT_H    0x3F
+#define ACCEL_ZOUT_L    0x40
+#define TEMP_OUT_H      0x41
+#define TEMP_OUT_L      0x42
+#define GYRO_XOUT_H     0x43
+#define GYRO_XOUT_L     0x44
+#define GYRO_YOUT_H     0x45
+#define GYRO_YOUT_L     0x46
+#define GYRO_ZOUT_H     0x47
+#define GYRO_ZOUT_L     0x48
 
 typedef struct {  
    volatile uint32_t i2c_data_out;
@@ -152,11 +147,9 @@ typedef struct {
    volatile uint32_t data;
    volatile uint32_t startRead;
    volatile uint32_t startWrite;
-
 }i2c_t;
-
 void i2c_write (int dirI2C, int dirIntern, int data);
-char i2c_read (int dirI2C, int dirIntern);
+int8_t i2c_read (int dirI2C, int dirIntern);
 void start_Read (int num);
 void start_Write (int num);
 void rw(int data_rw);
