@@ -2,7 +2,6 @@
  *Hola! Test 
  */
 #include "soc-hw.h"
-#include "soc-hw.h"
 #include "softfloat.h"
 
 //Ratios de conversion
@@ -47,6 +46,10 @@ int main(){
 	int32_t AcY;
 	int32_t AcZ;
 	
+	int8_t AcXh;
+	int8_t AcYh;	
+	int8_t AcZh;
+	int i=0;
 	setMotors();
 	msleep(50);	
 	initImu();
@@ -55,8 +58,34 @@ int main(){
 	//msleep(50);
 	testMotos();
 	uart_putchar(0);
-	uart_putchar1(0);	
+	uart_putchar1(0);
+	
+	int32_t z=0x01;
+	float32 a = int32_to_float32(z);	
+	for(;;){
+		for(i=0;i<5;i++){
+			AcZh = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_H);
+			sleep(1);
+		}
+		
+		for(i=0;i<5;i++){			
+			AcYh = i2c_read (ADDRESS_I2C, ACCEL_YOUT_H);
+			sleep(1);
+		}
+		
+		for(i=0;i<5;i++){				
+			AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
+			sleep(1);
+		}	
 
+		printxyz(AcXh, 0x00);
+		printxyz(AcYh, 0x00);
+		printxyz(AcZh, 0x00);			
+		uart_putchar1(13);
+		uart_putchar1(10);
+		
+		sleep(200);
+	}
 	/*for(;;){
 		//AcX=getAcX();
 		//AcY=getAcY();
@@ -118,5 +147,4 @@ int main(){
 		printxyz(AcZh, 0x00);			
 		uart_putchar1(13);
 		uart_putchar1(10);
-		
 		sleep(200);*/
