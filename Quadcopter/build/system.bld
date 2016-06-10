@@ -6,7 +6,7 @@ Command Line:
 ngdbuild -uc ../system.ucf system.ngc
 
 Reading NGO file
-"/home/hamd/Documentos/Dig/QuadCopterAll(Ajustes)/build/system.ngc" ...
+"/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/build/system.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,10 +28,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 418128 kilobytes
+Total memory usage is 418156 kilobytes
 
 Writing NGD file "system.ngd" ...
 Total REAL time to NGDBUILD completion:  5 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total CPU time to NGDBUILD completion:   5 sec
 
 Writing NGDBUILD log file "system.bld"...
