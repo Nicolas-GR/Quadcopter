@@ -1,7 +1,6 @@
 /**
  * 
  */
-
 #include "soc-hw.h"
 #include "soc-hw.h"
 #include "softfloat.h"
@@ -114,7 +113,7 @@ int main(){
 }
 
 
-/*printxyz(AcXh, 0x00);
+/*printxyz(AcXh, 0x00); visualizar en cutecome x-y-z
 		printxyz(AcYh, 0x00);
 		printxyz(AcZh, 0x00);			
 		uart_putchar1(13);
