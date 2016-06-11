@@ -50,138 +50,138 @@ RTL Output                         : yes
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" into library work
 Parsing module <system>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" into library work
 Parsing module <lac>.
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 23. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 24. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 25. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 86. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 87. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 88. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 89. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 90. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 91. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 92. parameter declaration becomes local in lac with formal parameter declaration list
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v" into library work
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 23. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 24. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 25. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 86. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 87. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 88. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 89. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 90. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 91. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/lac.v" Line 92. parameter declaration becomes local in lac with formal parameter declaration list
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" into library work
 Parsing module <uart>.
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 24. parameter declaration becomes local in uart with formal parameter declaration list
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/dp_ram.v" into library work
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 24. parameter declaration becomes local in uart with formal parameter declaration list
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/dp_ram.v" into library work
 Parsing module <dp_ram>.
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/dp_ram.v" Line 20. parameter declaration becomes local in dp_ram with formal parameter declaration list
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system_conf.v" included at line 28.
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/dp_ram.v" Line 20. parameter declaration becomes local in dp_ram with formal parameter declaration list
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/system_conf.v" included at line 28.
 Parsing module <lm32_cpu>.
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 423.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_instruction_unit.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 423.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_instruction_unit.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_instruction_unit>.
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 291.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_decoder.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 291.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_decoder.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_decoder>.
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 298.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_simtrace.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 10.
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 298.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_simtrace.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 10.
 Parsing module <lm32_simtrace>.
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 63.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_load_store_unit.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 63.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_load_store_unit.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_load_store_unit>.
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 208.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_adder.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_functions.v" included at line 208.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_adder.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_adder>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_addsub.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 23.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_addsub.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 23.
 Parsing module <lm32_addsub>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_logic_op.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_logic_op.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_logic_op>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_shifter.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_shifter.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_shifter>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_multiplier.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_multiplier.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_multiplier>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_mc_arithmetic.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_mc_arithmetic.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_mc_arithmetic>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_interrupt.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system_conf.v" included at line 24.
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 25.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_interrupt.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/system_conf.v" included at line 24.
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 25.
 Parsing module <lm32_interrupt>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_ram.v" into library work
-Parsing verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 23.
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_ram.v" into library work
+Parsing verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_include.v" included at line 23.
 Parsing module <lm32_ram>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" into library work
 Parsing module <wb_bram>.
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" Line 25. parameter declaration becomes local in wb_bram with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" Line 26. parameter declaration becomes local in wb_bram with formal parameter declaration list
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_uart/wb_uart.v" into library work
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" Line 25. parameter declaration becomes local in wb_bram with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" Line 26. parameter declaration becomes local in wb_bram with formal parameter declaration list
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_uart/wb_uart.v" into library work
 Parsing module <wb_uart>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_timer/wb_timer.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_timer/wb_timer.v" into library work
 Parsing module <wb_timer>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_gpio/wb_gpio.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_gpio/wb_gpio.v" into library work
 Parsing module <wb_gpio>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_conbus/conbus.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_conbus/conbus.v" into library work
 Parsing module <conbus>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_conbus/conbus_arb.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_conbus/conbus_arb.v" into library work
 Parsing module <conbus_arb>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" into library work
 Parsing module <wb_sram32>.
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" Line 52. parameter declaration becomes local in wb_sram32 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" Line 53. parameter declaration becomes local in wb_sram32 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" Line 54. parameter declaration becomes local in wb_sram32 with formal parameter declaration list
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_pwm/wb_pwm.v" into library work
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" Line 52. parameter declaration becomes local in wb_sram32 with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" Line 53. parameter declaration becomes local in wb_sram32 with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_sram/wb_sram32.v" Line 54. parameter declaration becomes local in wb_sram32 with formal parameter declaration list
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_pwm/wb_pwm.v" into library work
 Parsing module <wb_pwm>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_pwm/simple_pwm.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_pwm/simple_pwm.v" into library work
 Parsing module <simplePWM>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" into library work
 Parsing module <wb_i2c>.
-WARNING:HDLCompiler:751 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 48: Redeclaration of ansi port i2c_data_out is not allowed
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v" into library work
+WARNING:HDLCompiler:751 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 48: Redeclaration of ansi port i2c_data_out is not allowed
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v" into library work
 Parsing module <divisor_frecuencia>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c.v" into library work
 Parsing module <i2c>.
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" into library work
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" into library work
 Parsing module <i2c_controller_read_new>.
-WARNING:HDLCompiler:751 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 28: Redeclaration of ansi port done is not allowed
-WARNING:HDLCompiler:751 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 29: Redeclaration of ansi port busy is not allowed
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" into library work
+WARNING:HDLCompiler:751 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 28: Redeclaration of ansi port done is not allowed
+WARNING:HDLCompiler:751 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 29: Redeclaration of ansi port busy is not allowed
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" into library work
 Parsing module <i2c_controller_write_new>.
-WARNING:HDLCompiler:751 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 21: Redeclaration of ansi port done is not allowed
-WARNING:HDLCompiler:751 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 22: Redeclaration of ansi port busy is not allowed
-Analyzing Verilog file "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/multiplexor.v" into library work
+WARNING:HDLCompiler:751 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 21: Redeclaration of ansi port done is not allowed
+WARNING:HDLCompiler:751 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 22: Redeclaration of ansi port busy is not allowed
+Analyzing Verilog file "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/multiplexor.v" into library work
 Parsing module <multiplexor>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 175: Port m0_cti_i is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 480: Port wb_sel_i is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 175: Port m0_cti_i is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 480: Port wb_sel_i is not connected to this instance
 
 Elaborating module <system>.
 
 Elaborating module <conbus(s_addr_w=3,s0_addr=3'b0,s1_addr=3'b010,s2_addr=3'b011,s3_addr=3'b100,s4_addr=3'b101,s5_addr=3'b110,s6_addr=3'b111)>.
 
 Elaborating module <conbus_arb>.
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 268: Assignment to gpio0_sel ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 277: Assignment to i2c0_sel ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 268: Assignment to gpio0_sel ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 277: Assignment to i2c0_sel ignored, since the identifier is never used
 
 Elaborating module <lm32_cpu>.
 
 Elaborating module <lm32_instruction_unit(associativity=1,sets=512,bytes_per_line=16,base_address=0,limit=0)>.
-"/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_instruction_unit.v" Line 699. $display Instruction bus error. Address: 0
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" Line 461: Assignment to pc_x ignored, since the identifier is never used
+"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_instruction_unit.v" Line 699. $display Instruction bus error. Address: 0
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" Line 461: Assignment to pc_x ignored, since the identifier is never used
 
 Elaborating module <lm32_simtrace>.
-WARNING:HDLCompiler:1499 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_simtrace.v" Line 20: Empty module <lm32_simtrace> remains a black box.
+WARNING:HDLCompiler:1499 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_simtrace.v" Line 20: Empty module <lm32_simtrace> remains a black box.
 
 Elaborating module <lm32_decoder>.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_decoder.v" Line 559: Result of 32-bit expression is truncated to fit in 30-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_decoder.v" Line 559: Result of 32-bit expression is truncated to fit in 30-bit target.
 
 Elaborating module <lm32_load_store_unit(associativity=1,sets=512,bytes_per_line=16,base_address=0,limit=0)>.
 
@@ -192,80 +192,80 @@ Elaborating module <lm32_addsub>.
 Elaborating module <lm32_logic_op>.
 
 Elaborating module <lm32_shifter>.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_shifter.v" Line 123: Result of 64-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_shifter.v" Line 123: Result of 64-bit expression is truncated to fit in 32-bit target.
 
 Elaborating module <lm32_multiplier>.
 
 Elaborating module <lm32_mc_arithmetic>.
 
 Elaborating module <lm32_interrupt>.
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to x_result_sel_logic_x ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 319: Assignment to lm32i_cti ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 320: Assignment to lm32i_lock ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 321: Assignment to lm32i_bte ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 333: Assignment to lm32d_cti ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 334: Assignment to lm32d_lock ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 335: Assignment to lm32d_bte ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to x_result_sel_logic_x ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 319: Assignment to lm32i_cti ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 320: Assignment to lm32i_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 321: Assignment to lm32i_bte ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 333: Assignment to lm32d_cti ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 334: Assignment to lm32d_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 335: Assignment to lm32d_bte ignored, since the identifier is never used
 
 Elaborating module <wb_bram(adr_width=14,mem_file_name="../firmware/hw-test/image.ram")>.
 Reading initialization file \"../firmware/hw-test/image.ram\".
-WARNING:HDLCompiler:1670 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" Line 57: Signal <ram> in initial block is partially initialized.
+WARNING:HDLCompiler:1670 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" Line 57: Signal <ram> in initial block is partially initialized.
 
 Elaborating module <wb_uart(clk_freq=100000000,baud=115200)>.
 
 Elaborating module <uart(freq_hz=100000000,baud=115200)>.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 39: Result of 32-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 135: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 138: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 39: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 135: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 138: Result of 5-bit expression is truncated to fit in 4-bit target.
 
 Elaborating module <wb_timer(clk_freq=100000000)>.
 
 Elaborating module <wb_gpio>.
 
 Elaborating module <wb_i2c>.
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 50: Assignment to doneW ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 51: Assignment to busyR ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 52: Assignment to doneR ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 53: Assignment to busyW ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 50: Assignment to doneW ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 51: Assignment to busyR ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 52: Assignment to doneR ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 53: Assignment to busyW ignored, since the identifier is never used
 
 Elaborating module <i2c>.
 
 Elaborating module <i2c_controller_read_new>.
-WARNING:HDLCompiler:189 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c.v" Line 65: Size mismatch in connection of port <i2c_data>. Formal port size is 22-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c.v" Line 65: Size mismatch in connection of port <i2c_data>. Formal port size is 22-bit while actual signal size is 32-bit.
 
 Elaborating module <i2c_controller_write_new>.
 
 Elaborating module <divisor_frecuencia>.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v" Line 17: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:189 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 58: Size mismatch in connection of port <divisor>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 68: Assignment to ack_p ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 107: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 109: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 110: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:189 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 492: Size mismatch in connection of port <i2c_data_out>. Formal port size is 8-bit while actual signal size is 7-bit.
-WARNING:HDLCompiler:413 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 506: Result of 7-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:1127 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 506: Assignment to i2c_data_out ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v" Line 17: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:189 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 58: Size mismatch in connection of port <divisor>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 68: Assignment to ack_p ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 107: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 109: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 110: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 492: Size mismatch in connection of port <i2c_data_out>. Formal port size is 8-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:413 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 506: Result of 7-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 506: Assignment to i2c_data_out ignored, since the identifier is never used
 
 Elaborating module <wb_pwm>.
 
 Elaborating module <simplePWM>.
-WARNING:HDLCompiler:634 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 146: Net <lm32i_rty> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 147: Net <lm32d_rty> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 149: Net <lm32i_err> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 150: Net <lm32d_err> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 167: Net <gpio0_intr> does not have a driver.
-WARNING:HDLCompiler:552 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 184: Input port m0_cti_i[2] is not connected on this instance
-WARNING:HDLCompiler:552 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" Line 480: Input port wb_sel_i[3] is not connected on this instance
-WARNING:Xst:2972 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" line 483. All outputs of instance <simtrace> of block <lm32_simtrace> are unconnected in block <lm32_cpu>. Underlying logic will be removed.
+WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 146: Net <lm32i_rty> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 147: Net <lm32d_rty> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 149: Net <lm32i_err> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 150: Net <lm32d_err> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 167: Net <gpio0_intr> does not have a driver.
+WARNING:HDLCompiler:552 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 184: Input port m0_cti_i[2] is not connected on this instance
+WARNING:HDLCompiler:552 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 480: Input port wb_sel_i[3] is not connected on this instance
+WARNING:Xst:2972 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" line 483. All outputs of instance <simtrace> of block <lm32_simtrace> are unconnected in block <lm32_cpu>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v".
         bootram_file = "../firmware/hw-test/image.ram"
         clk_freq = 100000000
         uart_baud_rate = 115200
@@ -287,32 +287,32 @@ WARNING:Xst:647 - Input <sram_data> is never used. This port will be preserved a
 WARNING:Xst:647 - Input <nwe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <noe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ncs> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m2_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m3_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m4_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m5_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m6_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s0_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s1_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s2_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s3_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s3_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s4_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s4_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s5_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <s6_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m2_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m3_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m4_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m5_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 184: Output port <m6_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 306: Output port <I_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 306: Output port <I_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 306: Output port <D_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 306: Output port <D_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 306: Output port <I_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 306: Output port <D_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/system.v" line 480: Output port <i2c_data_out> of the instance <i2c0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m2_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m3_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m4_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m5_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m6_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s0_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s1_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s2_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s3_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s3_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s4_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s4_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s5_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <s6_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m2_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m3_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m4_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m5_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 184: Output port <m6_ack_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 306: Output port <I_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 306: Output port <I_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 306: Output port <D_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 306: Output port <D_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 306: Output port <I_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 306: Output port <D_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" line 480: Output port <i2c_data_out> of the instance <i2c0> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <lm32i_rty> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <lm32d_rty> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <lm32i_err> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -323,7 +323,7 @@ WARNING:Xst:653 - Signal <gpio0_intr> is used but never assigned. This sourceles
 Unit <system> synthesized.
 
 Synthesizing Unit <conbus>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_conbus/conbus.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_conbus/conbus.v".
         s_addr_w = 3
         s0_addr = 3'b000
         s1_addr = 3'b010
@@ -337,7 +337,7 @@ Synthesizing Unit <conbus>.
 Unit <conbus> synthesized.
 
 Synthesizing Unit <conbus_arb>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_conbus/conbus_arb.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_conbus/conbus_arb.v".
         grant0 = 7'b0000001
         grant1 = 7'b0000010
         grant2 = 7'b0000100
@@ -364,7 +364,7 @@ Synthesizing Unit <conbus_arb>.
 Unit <conbus_arb> synthesized.
 
 Synthesizing Unit <lm32_cpu>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v".
         eba_reset = 32'b00000000000000000000000000000000
         icache_associativity = 1
         icache_sets = 512
@@ -379,8 +379,8 @@ Synthesizing Unit <lm32_cpu>.
         watchpoints = 4'b0000
         breakpoints = 4'b0000
         interrupts = 32
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" line 436: Output port <pc_x> of the instance <instruction_unit> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" line 495: Output port <x_result_sel_logic> of the instance <decoder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" line 436: Output port <pc_x> of the instance <instruction_unit> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" line 495: Output port <x_result_sel_logic> of the instance <decoder> is unconnected or connected to loadless signal.
     Found 32-bit register for signal <operand_0_x>.
     Found 32-bit register for signal <operand_1_x>.
     Found 32-bit register for signal <store_operand_x>.
@@ -460,7 +460,7 @@ INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_c
 Unit <lm32_cpu> synthesized.
 
 Synthesizing Unit <lm32_instruction_unit>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_instruction_unit.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_instruction_unit.v".
         associativity = 1
         sets = 512
         bytes_per_line = 16
@@ -489,13 +489,13 @@ WARNING:Xst:647 - Input <i_rty_i> is never used. This port will be preserved and
 Unit <lm32_instruction_unit> synthesized.
 
 Synthesizing Unit <lm32_decoder>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_decoder.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_decoder.v".
     Summary:
 	inferred  14 Multiplexer(s).
 Unit <lm32_decoder> synthesized.
 
 Synthesizing Unit <lm32_load_store_unit>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_load_store_unit.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_load_store_unit.v".
         associativity = 1
         sets = 512
         bytes_per_line = 16
@@ -529,13 +529,13 @@ WARNING:Xst:647 - Input <d_rty_i> is never used. This port will be preserved and
 Unit <lm32_load_store_unit> synthesized.
 
 Synthesizing Unit <lm32_adder>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_adder.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_adder.v".
     Summary:
 	no macro.
 Unit <lm32_adder> synthesized.
 
 Synthesizing Unit <lm32_addsub>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_addsub.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_addsub.v".
     Found 33-bit subtractor for signal <GND_15_o_GND_15_o_sub_3_OUT> created at line 63.
     Found 33-bit subtractor for signal <tmp_subResult> created at line 63.
     Found 33-bit adder for signal <n0025> created at line 62.
@@ -546,7 +546,7 @@ Synthesizing Unit <lm32_addsub>.
 Unit <lm32_addsub> synthesized.
 
 Synthesizing Unit <lm32_logic_op>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_logic_op.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_logic_op.v".
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<0>> created at line 67.
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<1>> created at line 67.
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<2>> created at line 67.
@@ -584,7 +584,7 @@ Synthesizing Unit <lm32_logic_op>.
 Unit <lm32_logic_op> synthesized.
 
 Synthesizing Unit <lm32_shifter>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_shifter.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_shifter.v".
 WARNING:Xst:647 - Input <operand_1_x<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <right_shift_result>.
     Found 1-bit register for signal <direction_m>.
@@ -596,7 +596,7 @@ WARNING:Xst:647 - Input <operand_1_x<31:5>> is never used. This port will be pre
 Unit <lm32_shifter> synthesized.
 
 Synthesizing Unit <lm32_multiplier>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_multiplier.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_multiplier.v".
     Found 32-bit register for signal <multiplier>.
     Found 32-bit register for signal <product>.
     Found 32-bit register for signal <result>.
@@ -608,7 +608,7 @@ Synthesizing Unit <lm32_multiplier>.
 Unit <lm32_multiplier> synthesized.
 
 Synthesizing Unit <lm32_mc_arithmetic>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_mc_arithmetic.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_mc_arithmetic.v".
     Found 32-bit register for signal <p>.
     Found 32-bit register for signal <a>.
     Found 32-bit register for signal <b>.
@@ -639,7 +639,7 @@ Synthesizing Unit <lm32_mc_arithmetic>.
 Unit <lm32_mc_arithmetic> synthesized.
 
 Synthesizing Unit <lm32_interrupt>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lm32/lm32_interrupt.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_interrupt.v".
         interrupts = 32
     Found 32-bit register for signal <im>.
     Found 32-bit register for signal <ip>.
@@ -652,7 +652,7 @@ Synthesizing Unit <lm32_interrupt>.
 Unit <lm32_interrupt> synthesized.
 
 Synthesizing Unit <wb_bram>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v".
         mem_file_name = "../firmware/hw-test/image.ram"
         adr_width = 14
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -668,7 +668,7 @@ WARNING:Xst:647 - Input <rst_i> is never used. This port will be preserved and l
 Unit <wb_bram> synthesized.
 
 Synthesizing Unit <wb_uart>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_uart/wb_uart.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_uart/wb_uart.v".
         clk_freq = 100000000
         baud = 115200
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -716,7 +716,7 @@ WARNING:Xst:647 - Input <wb_dat_i<31:8>> is never used. This port will be preser
 Unit <wb_uart> synthesized.
 
 Synthesizing Unit <uart>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/lac/uart.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v".
         freq_hz = 100000000
         baud = 115200
     Found 1-bit register for signal <uart_rxd1>.
@@ -746,7 +746,7 @@ Synthesizing Unit <uart>.
 Unit <uart> synthesized.
 
 Synthesizing Unit <wb_timer>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_timer/wb_timer.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_timer/wb_timer.v".
         clk_freq = 100000000
 WARNING:Xst:647 - Input <wb_adr_i<31:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -777,7 +777,7 @@ WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved an
 Unit <wb_timer> synthesized.
 
 Synthesizing Unit <wb_gpio>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_gpio/wb_gpio.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_gpio/wb_gpio.v".
         gpio_io_width = 8
         gpio_dir_reset_val = 0
         gpio_o_reset_val = 0
@@ -804,11 +804,11 @@ WARNING:Xst:647 - Input <wb_dat_i<31:8>> is never used. This port will be preser
 Unit <wb_gpio> synthesized.
 
 Synthesizing Unit <wb_i2c>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v".
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_adr_i<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" line 55: Output port <ack> of the instance <i2c0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" line 55: Output port <ack> of the instance <i2c0> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <startwrite>.
     Found 1-bit register for signal <ack>.
     Found 32-bit register for signal <wb_dat_o>.
@@ -822,13 +822,13 @@ INFO:Xst:3210 - "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i
 Unit <wb_i2c> synthesized.
 
 Synthesizing Unit <i2c>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <i2c> synthesized.
 
 Synthesizing Unit <i2c_controller_read_new>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v".
         LAST_STAGE = 7'b0101000
     Found 2-bit register for signal <stageclk>.
     Found 7-bit register for signal <sclk_divider>.
@@ -864,7 +864,7 @@ Synthesizing Unit <i2c_controller_read_new>.
 Unit <i2c_controller_read_new> synthesized.
 
 Synthesizing Unit <i2c_controller_write_new>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v".
         LAST_STAGE = 5'b11101
     Found 5-bit register for signal <stage>.
     Found 1-bit register for signal <clock_en>.
@@ -886,7 +886,7 @@ Synthesizing Unit <i2c_controller_write_new>.
 Unit <i2c_controller_write_new> synthesized.
 
 Synthesizing Unit <divisor_frecuencia>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v".
     Found 1-bit register for signal <mclko>.
     Found 3-bit register for signal <contador>.
     Found 3-bit adder for signal <contador[2]_GND_41_o_add_1_OUT> created at line 17.
@@ -896,7 +896,7 @@ Synthesizing Unit <divisor_frecuencia>.
 Unit <divisor_frecuencia> synthesized.
 
 Synthesizing Unit <wb_pwm>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_pwm/wb_pwm.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_pwm/wb_pwm.v".
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_adr_i<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -936,7 +936,7 @@ WARNING:Xst:653 - Signal <wb_dat_o<7:0>> is used but never assigned. This source
 Unit <wb_pwm> synthesized.
 
 Synthesizing Unit <simplePWM>.
-    Related source file is "/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/rtl/wb_pwm/simple_pwm.v".
+    Related source file is "/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_pwm/simple_pwm.v".
     Found 32-bit register for signal <timeWork_reg>.
     Found 1-bit register for signal <enable>.
     Found 32-bit register for signal <counter>.
@@ -1997,13 +1997,13 @@ i2c0/i2c0/divisorfrecuencia/mclko|    6.147|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 25.00 secs
-Total CPU time to Xst completion: 23.90 secs
+Total REAL time to Xst completion: 76.00 secs
+Total CPU time to Xst completion: 73.50 secs
  
 --> 
 
 
-Total memory usage is 429780 kilobytes
+Total memory usage is 425660 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  406 (   0 filtered)

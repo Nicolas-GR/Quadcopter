@@ -109,8 +109,6 @@ float32 float32_mul( float32, float32 );
 float32 float32_div( float32, float32 );
 float32 float32_rem( float32, float32 );
 float32 float32_sqrt( float32 );
-float32 float32_artan( float32 );
-float32 float32_pow2( float32 );
 int float32_eq( float32, float32 );
 int float32_le( float32, float32 );
 int float32_lt( float32, float32 );

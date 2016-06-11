@@ -1,12 +1,11 @@
 Release 14.7 ngdbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line:
-/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/
-ngdbuild -uc ../system.ucf system.ngc
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -uc
+../system.ucf system.ngc
 
 Reading NGO file
-"/home/hamd/Documentos/Dig/Quadcopter/Quadcopter/build/system.ngc" ...
+"/home/raparram/Escritorio/Quadcopter/Quadcopter/build/system.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,10 +27,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 418156 kilobytes
+Total memory usage is 413896 kilobytes
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  5 sec
-Total CPU time to NGDBUILD completion:   5 sec
+Total REAL time to NGDBUILD completion:  17 sec
+Total CPU time to NGDBUILD completion:   16 sec
 
 Writing NGDBUILD log file "system.bld"...
