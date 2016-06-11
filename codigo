@@ -1,15 +1,6 @@
-<<<<<<< HEAD
-git status: Enlista cambios no subidos
-git checkout -b NombreRamaQueYoQuiera : crea Rama con los cambios
-git add . : Agregar cambios a la rama recien creada
-git commit -m "Mensaje de Commit, decripcion" : envia el commit con descripcion
-git push origin NombreRamaQueYoQuiera
-
-modificacion
 =======
 git status                                      : Enlista cambios no subidos
 git checkout -b NombreRamaQueYoQuiera           : Crea Rama con los cambios
 git add .                                       : Agregar cambios a la rama recien creada
 git commit -m "Mensaje de Commit, decripcion"   : Envia el commit con descripcion
 git push origin NombreRamaQueYoQuiera           : Adjunta cambios al repositorio
->>>>>>> da7f111ab9f86442e16499e006d5a650d494b33d
