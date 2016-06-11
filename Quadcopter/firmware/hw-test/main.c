@@ -92,8 +92,8 @@ int main(){
 		//AcX=getAcX();
 		//AcY=getAcY();
 		//AcZ=getAcZ();
-		if(AcZ<0x32){
-			if(AcX>-115 && AcX<0x0){	
+		if(AcZ<0x32){  //detección de variaciones en z
+			if(AcX>-115 && AcX<0x0){	// Variaciones en x-
 				if(s2<0x69)
 					s2=s2+0x01;
 				else{
@@ -103,7 +103,7 @@ int main(){
 				}
 				set_motor2(0x5DC * s2 + 0xFD20);
 			}
-			if(AcX>0x1F){
+			if(AcX>0x1F){			// Variaciones en x+
 				if(s4<0x69)
 					s4=s4+0x01;
 				else{
@@ -113,7 +113,7 @@ int main(){
 				}
 				set_motor4(0x5DC * s4 + 0xFD20);			
 			}
-			if(AcY>-115 && AcY<0x0){
+			if(AcY>-115 && AcY<0x0){  	// Variaciones en y-
 				if(s1<0x69)
 					s1=s1+0x01;
 				else{
@@ -123,7 +123,7 @@ int main(){
 				}
 				set_motor1(0x5DC * s1 + 0xFD20);								
 			}
-			if(AcY>0x15){
+			if(AcY>0x15){			// Variaciones en y+
 				if(s4<0x69)
 					s3=s3+0x01;
 				else{
