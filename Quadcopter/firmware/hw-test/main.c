@@ -1,15 +1,17 @@
 /**
- *Hola! Test 
+ *
  */
 #include "soc-hw.h"
 #include "softfloat.h"
 
-//Ratios de conversion
-#define A_R 16384.0
-#define G_R 131.0
-
-//Conversion de radianes a grados 180/PI
-#define RAD_TO_DEG = 57.295779
+#define PI 0x40490FD8		//Constante PI float32
+#define alfa 0x3F7AE148		//0,98 float32
+#define beta 0x3CA3D70A		//0,02 float32
+#define gamma 0x3C343958	//0,011 float32
+#define A_R 0x46800000		//Ratio to Accelerometer, 16384 float32
+#define G_R 0x43030000		//Ratio to Gyroscope, 131 float32
+#define NEG 0xBF800000		//-1 float32
+#define RtoD 0x42652ECC		//Rad_to_Deg float32
 
 void printdec2hex(char l){
 

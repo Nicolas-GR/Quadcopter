@@ -1,83 +1,152 @@
 /**
- * 
+ *
  */
-
 #include "soc-hw.h"
-//#include "tgmath.h"
-//#include "string.h"
+#include "softfloat.h"
 
-//Ratios de conversion
-#define A_R 16384.0
-#define G_R 131.0
- 
-//Conversion de radianes a grados 180/PI
-#define RAD_TO_DEG = 57.295779
-int main(){
+#define PI 0x40490FD8		//Constante PI float32
+#define alfa 0x3F7AE148		//0,98 float32
+#define beta 0x3CA3D70A		//0,02 float32
+#define gamma 0x3C343958	//0,011 float32
+#define A_R 0x46800000		//Ratio to Accelerometer, 16384 float32
+#define G_R 0x43030000		//Ratio to Gyroscope, 131 float32
+#define NEG 0xBF800000		//-1 float32
+#define RtoD 0x42652ECC		//Rad_to_Deg float32
 
-	//Reset device, reset all registers, clear gyro and accelerometer bias registers		
-		i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x80);
-		sleep(100); 
-		//Get stable time source
-		i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x01);
-		i2c_write(ADDRESS_I2C,PWR_MGMT_2,0x00);
-		sleep(200);
-		// Configure device for bias calculation
-		i2c_write(ADDRESS_I2C,INT_ENABLE,0x00);
-		i2c_write(ADDRESS_I2C,FIFO_EN,0x00);
-		i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x00);
-		i2c_write(ADDRESS_I2C,I2C_MST_CTRL,0x00);
-		i2c_write(ADDRESS_I2C,USER_CTRL,0x00);
-		i2c_write(ADDRESS_I2C,USER_CTRL,0x0C);
-		sleep(15);
-		// Configure MPU6050 gyro and accelerometer for bias calculation
-		i2c_write(ADDRESS_I2C,CONFIG,0x01);
-		i2c_write(ADDRESS_I2C,SMPLRT_DIV,0x00);
-		i2c_write(ADDRESS_I2C,GYRO_CONFIG,0x01);
-		i2c_write(ADDRESS_I2C,ACCEL_CONFIG,0x00);
-		// Configure FIFO to capture accelerometer and gyro data for bias calculation
-		i2c_write(ADDRESS_I2C,USER_CTRL,0x40);
-		i2c_write(ADDRESS_I2C,ACCEL_CONFIG,0x78);
-		sleep(80);
-	
+void printdec2hex(char l){
+
+        char t = ((l & 0xf0 )>>4)+0x30;
+	if (t > 0x39)
+		t+=0x07;
+	uart_putchar1(t);
+	t = (l & 0x0f)+0x30;
+	if (t > 0x39)
+		t+=0x07;
+	uart_putchar1(t);
+
+}
+void printxyz(int8_t AcH, char AcL){
+		if(AcH<0){
+			uart_putchar1('-');
+			printdec2hex(AcH & 0X7F);
+		}
+		else		
+			printdec2hex(AcH);
 		
-	while(1){	
-		//i2c_write(ADDRESS_I2C,PWR_MGMT_1,0x80);
-		char AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
-		uart_putchar1(AcXh);
-		sleep(1000);
-		char AcXl = i2c_read (ADDRESS_I2C, ACCEL_XOUT_L);
-		uart_putchar1(AcXl);
-		sleep(1000);
-		char AcYh = i2c_read (ADDRESS_I2C, ACCEL_YOUT_H);
-		uart_putchar1(AcYh);
-		sleep(1000);
-		char AcYl = i2c_read (ADDRESS_I2C, ACCEL_YOUT_L);
-		uart_putchar1(AcYl);
-		sleep(1000);
-		char AcZh = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_H);
-		uart_putchar1(AcZh);
-		sleep(1000);
-		char AcZl = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_L);
-		uart_putchar1(AcZl);
-		sleep(1000);
-		char Gxh = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
-		uart_putchar1(Gxh);
-		sleep(1000);
-		char Gxl = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
-		uart_putchar1(Gxh);
-		sleep(1000);
-		char Gyh = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
-		uart_putchar1(Gxh);
-		sleep(1000);
-		char Gyl = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
-		uart_putchar1(Gxh);
-		sleep(1000);
-		char Gzh = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
-		uart_putchar1(Gxh);
-		sleep(1000);
-		char Gzl = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
-		uart_putchar1(Gxh);
-		sleep(1000);
-	} 
+		printdec2hex(AcL);
+		uart_putstr1(" ");
 }
 
+int main(){
+
+	int s1=0x00;
+	int s2=0x00;
+	int s3=0x00;	
+	int s4=0x00;
+
+	int32_t AcX;
+	int32_t AcY;
+	int32_t AcZ;
+	
+	int8_t AcXh;
+	int8_t AcYh;	
+	int8_t AcZh;
+	int i=0;
+	setMotors();
+	msleep(50);	
+	initImu();
+	msleep(50);
+	//init_wifi()
+	//msleep(50);
+	testMotos();
+	uart_putchar(0);
+	uart_putchar1(0);
+	
+	int32_t z=0x01;
+	float32 a = int32_to_float32(z);	
+	for(;;){
+		for(i=0;i<5;i++){
+			AcZh = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_H);
+			sleep(1);
+		}
+		
+		for(i=0;i<5;i++){			
+			AcYh = i2c_read (ADDRESS_I2C, ACCEL_YOUT_H);
+			sleep(1);
+		}
+		
+		for(i=0;i<5;i++){				
+			AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
+			sleep(1);
+		}	
+
+		printxyz(AcXh, 0x00);
+		printxyz(AcYh, 0x00);
+		printxyz(AcZh, 0x00);			
+		uart_putchar1(13);
+		uart_putchar1(10);
+		
+		sleep(200);
+	}
+	/*for(;;){
+		//AcX=getAcX();
+		//AcY=getAcY();
+		//AcZ=getAcZ();
+		if(AcZ<0x32){
+			if(AcX>-115 && AcX<0x0){	
+				if(s2<0x69)
+					s2=s2+0x01;
+				else{
+					s2=0x69;
+					s4=s4-0x01;
+					set_motor4(0x5DC * s4 + 0xFD20);
+				}
+				set_motor2(0x5DC * s2 + 0xFD20);
+			}
+			if(AcX>0x1F){
+				if(s4<0x69)
+					s4=s4+0x01;
+				else{
+					s4=0x69;
+					s2=s2-0x01;
+					set_motor2(0x5DC * s2 + 0xFD20)
+				}
+				set_motor4(0x5DC * s4 + 0xFD20);			
+			}
+			if(AcY>-115 && AcY<0x0){
+				if(s1<0x69)
+					s1=s1+0x01;
+				else{
+					s1=0x69;
+					s3=s3-0x01;			
+					set_motor3(0x5DC * s3 + 0xFD20);								
+				}
+				set_motor1(0x5DC * s1 + 0xFD20);								
+			}
+			if(AcY>0x15){
+				if(s4<0x69)
+					s3=s3+0x01;
+				else{
+					s3=0x69;
+					s1=s1-0x01;			
+					set_motor1(0x5DC * s1 + 0xFD20);								
+				}
+				set_motor3(0x5DC * s3 + 0xFD20);
+			}
+		}
+		else{
+			set_motor1(0xEA60); 
+			set_motor2(0xEA60);
+			set_motor3(0xEA60);
+			set_motor4(0xEA60);
+		}
+	}*/
+}
+
+
+/*printxyz(AcXh, 0x00); visualizar en cutecome x-y-z
+		printxyz(AcYh, 0x00);
+		printxyz(AcZh, 0x00);			
+		uart_putchar1(13);
+		uart_putchar1(10);
+		sleep(200);*/

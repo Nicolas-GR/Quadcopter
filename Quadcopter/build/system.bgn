@@ -1,12 +1,12 @@
 Release 14.7 - Bitgen P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Loading device for application Rf_Device from file '6slx16.nph' in environment
-/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE/.
+/opt/Xilinx/14.7/ISE_DS/ISE/.
    "system" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
 
-Fri Jun 10 18:16:42 2016
+Fri Jun 10 18:55:47 2016
 
-/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -w system-routed.ncd system.bit 
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -w system-routed.ncd system.bit 
 
 Summary of Bitgen Options:
 +----------------------+----------------------+

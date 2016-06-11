@@ -18,7 +18,7 @@ Guión del enlazador y mapa de memoria
                 0x0000000000003000                _RAM_SIZE = 0x3000
                 0x0000000000003000                _RAM_END = (_RAM_START + _RAM_SIZE)
 
-.text           0x0000000000000000     0x26d8
+.text           0x0000000000000000     0x27c8
                 0x0000000000000000                _ftext = .
  *(.text .stub .text.* .gnu.linkonce.t.*)
  .text          0x0000000000000000      0x208 crt0ram.o
@@ -78,7 +78,7 @@ Guión del enlazador y mapa de memoria
                 0x0000000000000bbc                getAcX
                 0x0000000000000c1c                getAcY
                 0x0000000000000c7c                getAcZ
- .text          0x0000000000000cdc     0x19fc softfloat.o
+ .text          0x0000000000000cdc     0x1aec softfloat.o
                 0x0000000000001400                float_raise
                 0x0000000000001418                float32_is_nan
                 0x0000000000001428                float32_is_signaling_nan
@@ -98,69 +98,72 @@ Guión del enlazador y mapa de memoria
                 0x0000000000002444                float32_eq_signaling
                 0x00000000000024c8                float32_le_quiet
                 0x00000000000025d0                float32_lt_quiet
-                0x00000000000026d8                _etext = .
+                0x00000000000026d8                float32_abs
+                0x0000000000002704                float32_artan
+                0x00000000000027ac                float32_pow2
+                0x00000000000027c8                _etext = .
 
-.rodata         0x00000000000026d8      0x4a8
-                0x00000000000026d8                . = ALIGN (0x4)
-                0x00000000000026d8                _frodata = .
+.rodata         0x00000000000027c8      0x4b4
+                0x00000000000027c8                . = ALIGN (0x4)
+                0x00000000000027c8                _frodata = .
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.str1.4
-                0x00000000000026d8        0x2 main.o
+                0x00000000000027c8        0x2 main.o
                                           0x4 (tamaño antes de la relajación)
- *fill*         0x00000000000026da        0x2 
- .rodata.cst4   0x00000000000026dc        0xc soc-hw.o
+ *fill*         0x00000000000027ca        0x2 
+ .rodata.cst4   0x00000000000027cc        0xc soc-hw.o
  .rodata.str1.4
-                0x00000000000026e8       0x44 soc-hw.o
- .rodata.cst4   0x000000000000272c       0x14 softfloat.o
-                                         0x68 (tamaño antes de la relajación)
- .rodata        0x0000000000002740      0x440 softfloat.o
+                0x00000000000027d8       0x44 soc-hw.o
+ .rodata.cst4   0x000000000000281c       0x20 softfloat.o
+                                         0x74 (tamaño antes de la relajación)
+ .rodata        0x000000000000283c      0x440 softfloat.o
  *(.rodata1)
-                0x0000000000002b80                _erodata = .
+                0x0000000000002c7c                _erodata = .
 
-.data           0x0000000000002b80       0x28
-                0x0000000000002b80                . = ALIGN (0x4)
-                0x0000000000002b80                _fdata = .
+.data           0x0000000000002c7c       0x28
+                0x0000000000002c7c                . = ALIGN (0x4)
+                0x0000000000002c7c                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000000002b80        0x0 crt0ram.o
- .data          0x0000000000002b80        0x0 main.o
- .data          0x0000000000002b80       0x28 soc-hw.o
-                0x0000000000002b80                uart0
-                0x0000000000002b84                timer0
-                0x0000000000002b88                gpio0
-                0x0000000000002b8c                i2c0
-                0x0000000000002b90                uart1
-                0x0000000000002b94                pwm0
-                0x0000000000002b98                velM1
-                0x0000000000002b9c                velM2
-                0x0000000000002ba0                velM3
-                0x0000000000002ba4                velM4
- .data          0x0000000000002ba8        0x0 softfloat.o
+ .data          0x0000000000002c7c        0x0 crt0ram.o
+ .data          0x0000000000002c7c        0x0 main.o
+ .data          0x0000000000002c7c       0x28 soc-hw.o
+                0x0000000000002c7c                uart0
+                0x0000000000002c80                timer0
+                0x0000000000002c84                gpio0
+                0x0000000000002c88                i2c0
+                0x0000000000002c8c                uart1
+                0x0000000000002c90                pwm0
+                0x0000000000002c94                velM1
+                0x0000000000002c98                velM2
+                0x0000000000002c9c                velM3
+                0x0000000000002ca0                velM4
+ .data          0x0000000000002ca4        0x0 softfloat.o
  *(.data1)
-                0x0000000000002bb0                _gp = ALIGN (0x10)
+                0x0000000000002cb0                _gp = ALIGN (0x10)
  *(.sdata .sdata.* .gnu.linkonce.s.*)
-                0x0000000000002ba8                _edata = .
+                0x0000000000002ca4                _edata = .
 
-.bss            0x0000000000002ba8       0x90
-                0x0000000000002ba8                . = ALIGN (0x4)
-                0x0000000000002ba8                _fbss = .
+.bss            0x0000000000002ca4       0x90
+                0x0000000000002ca4                . = ALIGN (0x4)
+                0x0000000000002ca4                _fbss = .
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x0000000000002ba8        0x0 crt0ram.o
- .bss           0x0000000000002ba8        0x0 main.o
- .bss           0x0000000000002ba8        0x0 soc-hw.o
- .bss           0x0000000000002ba8        0xc softfloat.o
-                0x0000000000002ba8                float_rounding_mode
-                0x0000000000002bac                float_exception_flags
-                0x0000000000002bb0                float_detect_tininess
+ .bss           0x0000000000002ca4        0x0 crt0ram.o
+ .bss           0x0000000000002ca4        0x0 main.o
+ .bss           0x0000000000002ca4        0x0 soc-hw.o
+ .bss           0x0000000000002ca4        0xc softfloat.o
+                0x0000000000002ca4                float_rounding_mode
+                0x0000000000002ca8                float_exception_flags
+                0x0000000000002cac                float_detect_tininess
  *(COMMON)
- COMMON         0x0000000000002bb4       0x84 soc-hw.o
-                0x0000000000002bb4                isr_table
-                0x0000000000002c34                tic_msec
-                0x0000000000002c38                _ebss = .
-                0x0000000000002c38                _end = .
+ COMMON         0x0000000000002cb0       0x84 soc-hw.o
+                0x0000000000002cb0                isr_table
+                0x0000000000002d30                tic_msec
+                0x0000000000002d34                _ebss = .
+                0x0000000000002d34                _end = .
                 0x0000000000002ffc                PROVIDE (_fstack, ((ORIGIN (ram) + 0x3000) - 0x4))
 LOAD crt0ram.o
 LOAD main.o
@@ -173,34 +176,34 @@ OUTPUT(image elf32-lm32)
  .debug_abbrev  0x00000000000000c4      0x390 soc-hw.o
  .debug_abbrev  0x0000000000000454      0x34e softfloat.o
 
-.debug_info     0x0000000000000000     0x3836
+.debug_info     0x0000000000000000     0x3922
  .debug_info    0x0000000000000000      0x1ac main.o
  .debug_info    0x00000000000001ac      0xe1e soc-hw.o
- .debug_info    0x0000000000000fca     0x286c softfloat.o
+ .debug_info    0x0000000000000fca     0x2958 softfloat.o
 
-.debug_line     0x0000000000000000     0x2c22
+.debug_line     0x0000000000000000     0x2cf7
  .debug_line    0x0000000000000000      0x1db main.o
  .debug_line    0x00000000000001db      0x912 soc-hw.o
- .debug_line    0x0000000000000aed     0x2135 softfloat.o
+ .debug_line    0x0000000000000aed     0x220a softfloat.o
 
-.debug_frame    0x0000000000000000      0x4a0
+.debug_frame    0x0000000000000000      0x4d0
  .debug_frame   0x0000000000000000       0x40 main.o
  .debug_frame   0x0000000000000040      0x2b0 soc-hw.o
- .debug_frame   0x00000000000002f0      0x1b0 softfloat.o
+ .debug_frame   0x00000000000002f0      0x1e0 softfloat.o
 
-.debug_loc      0x0000000000000000     0x354b
+.debug_loc      0x0000000000000000     0x3643
  .debug_loc     0x0000000000000000      0x120 main.o
  .debug_loc     0x0000000000000120      0x3bc soc-hw.o
- .debug_loc     0x00000000000004dc     0x306f softfloat.o
+ .debug_loc     0x00000000000004dc     0x3167 softfloat.o
 
 .debug_pubnames
-                0x0000000000000000      0x4f3
+                0x0000000000000000      0x526
  .debug_pubnames
                 0x0000000000000000       0x39 main.o
  .debug_pubnames
                 0x0000000000000039      0x2e5 soc-hw.o
  .debug_pubnames
-                0x000000000000031e      0x1d5 softfloat.o
+                0x000000000000031e      0x208 softfloat.o
 
 .debug_pubtypes
                 0x0000000000000000      0x109
@@ -219,13 +222,13 @@ OUTPUT(image elf32-lm32)
  .debug_aranges
                 0x0000000000000040       0x20 softfloat.o
 
-.debug_str      0x0000000000000000      0x984
+.debug_str      0x0000000000000000      0x9ab
  .debug_str     0x0000000000000000       0xa5 main.o
                                          0xd3 (tamaño antes de la relajación)
  .debug_str     0x00000000000000a5      0x333 soc-hw.o
                                         0x406 (tamaño antes de la relajación)
- .debug_str     0x00000000000003d8      0x5ac softfloat.o
-                                        0x658 (tamaño antes de la relajación)
+ .debug_str     0x00000000000003d8      0x5d3 softfloat.o
+                                        0x67f (tamaño antes de la relajación)
 
 .comment        0x0000000000000000       0x11
  .comment       0x0000000000000000       0x11 main.o
