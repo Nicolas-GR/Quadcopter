@@ -87,7 +87,15 @@ void write_data(char data);
 char read_data();
 
 /***************************************************************************
- * UART0
+ * wifi esp8266
+ */
+
+void init_wifi();
+void wifi_putchar(char a);
+char wifi_getchar();
+int ok();
+/***************************************************************************
+ * UART
  */
 #define UART_DR   0x01                    // RX Data Ready
 #define UART_ERR  0x02                    // RX Error
@@ -97,7 +105,7 @@ typedef struct {
    volatile uint32_t ucr;
    volatile uint32_t rxtx;
 } uart_t;
-
+//UART0
 void uart_init();
 void uart_putchar(char c);
 void uart_putstr(char *str);
