@@ -1,7 +1,7 @@
-INFILE=/home/raparram/Escritorio/Quadcopter/Quadcopter/build/system-routed.ncd
-OUTFILE=/home/raparram/Escritorio/Quadcopter/Quadcopter/build/system.bit
+INFILE=/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/build/system-routed.ncd
+OUTFILE=/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/build/system.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=/home/raparram/Escritorio/Quadcopter/Quadcopter/build
+WORKINGDIR=/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/build
 LICENSE=WebPack
-USER_INFO=211095409_0_0_571
+USER_INFO=211093660_0_0_312

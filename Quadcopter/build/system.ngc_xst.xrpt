@@ -5,35 +5,35 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Fri Jun 10 18:48:43 2016">
+  <application stringID="Xst" timeStamp="Sun Jun 12 16:05:30 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="LD_LIBRARY_PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64"/>
+          <item stringID="value" value="/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE//lib/lin64:/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE/bin/lin64/"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/rtems-4.11/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/"/>
+          <item stringID="value" value="/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE/bin/lin64/:/opt/rtems-4.11/bin"/>
         </row>
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE/"/>
+          <item stringID="value" value="/media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE/"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
         <item stringID="User_EnvOsname" value="Ubuntu"/>
-        <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.4 LTS"/>
+        <item stringID="User_EnvOsrelease" value="Ubuntu 16.04 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="ryu-pc"/>
+      <item stringID="User_EnvHost" value="hamd-IdeaPad-U330-Touch"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Celeron(R) CPU 1005M @ 1.90GHz"/>
-          <item stringID="speed" value="1178.000 MHz"/>
+          <item stringID="arch" value="Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz"/>
+          <item stringID="speed" value="2310.871 MHz"/>
         </row>
       </table>
     </section>

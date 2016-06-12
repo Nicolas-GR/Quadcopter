@@ -5,148 +5,148 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 48: Redeclaration of ansi port <arg fmt="%s" index="1">i2c_data_out</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 48: Redeclaration of ansi port <arg fmt="%s" index="1">i2c_data_out</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 28: Redeclaration of ansi port <arg fmt="%s" index="1">done</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 28: Redeclaration of ansi port <arg fmt="%s" index="1">done</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">busy</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/i2c_controller_read_new.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">busy</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 21: Redeclaration of ansi port <arg fmt="%s" index="1">done</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 21: Redeclaration of ansi port <arg fmt="%s" index="1">done</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 22: Redeclaration of ansi port <arg fmt="%s" index="1">busy</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/i2c_controller_write_new.v" Line 22: Redeclaration of ansi port <arg fmt="%s" index="1">busy</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 175: Port <arg fmt="%s" index="1">m0_cti_i</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 175: Port <arg fmt="%s" index="1">m0_cti_i</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 480: Port <arg fmt="%s" index="1">wb_sel_i</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 480: Port <arg fmt="%s" index="1">wb_sel_i</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 268: Assignment to <arg fmt="%s" index="1">gpio0_sel</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 268: Assignment to <arg fmt="%s" index="1">gpio0_sel</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 277: Assignment to <arg fmt="%s" index="1">i2c0_sel</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 277: Assignment to <arg fmt="%s" index="1">i2c0_sel</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" Line 461: Assignment to <arg fmt="%s" index="1">pc_x</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_cpu.v" Line 461: Assignment to <arg fmt="%s" index="1">pc_x</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_simtrace.v" Line 20: Empty module &lt;<arg fmt="%s" index="1">lm32_simtrace</arg>&gt; remains a black box.
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_simtrace.v" Line 20: Empty module &lt;<arg fmt="%s" index="1">lm32_simtrace</arg>&gt; remains a black box.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_decoder.v" Line 559: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">30</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_decoder.v" Line 559: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">30</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_shifter.v" Line 123: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_shifter.v" Line 123: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to <arg fmt="%s" index="1">x_result_sel_logic_x</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to <arg fmt="%s" index="1">x_result_sel_logic_x</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 319: Assignment to <arg fmt="%s" index="1">lm32i_cti</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 319: Assignment to <arg fmt="%s" index="1">lm32i_cti</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 320: Assignment to <arg fmt="%s" index="1">lm32i_lock</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 320: Assignment to <arg fmt="%s" index="1">lm32i_lock</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 321: Assignment to <arg fmt="%s" index="1">lm32i_bte</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 321: Assignment to <arg fmt="%s" index="1">lm32i_bte</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 333: Assignment to <arg fmt="%s" index="1">lm32d_cti</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 333: Assignment to <arg fmt="%s" index="1">lm32d_cti</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 334: Assignment to <arg fmt="%s" index="1">lm32d_lock</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 334: Assignment to <arg fmt="%s" index="1">lm32d_lock</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 335: Assignment to <arg fmt="%s" index="1">lm32d_bte</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 335: Assignment to <arg fmt="%s" index="1">lm32d_bte</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_bram/wb_bram.v" Line 57: Signal &lt;<arg fmt="%s" index="1">ram</arg>&gt; in initial block is partially initialized.
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_bram/wb_bram.v" Line 57: Signal &lt;<arg fmt="%s" index="1">ram</arg>&gt; in initial block is partially initialized.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 39: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lac/uart.v" Line 39: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 88: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lac/uart.v" Line 88: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 91: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lac/uart.v" Line 91: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 135: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lac/uart.v" Line 135: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lac/uart.v" Line 138: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lac/uart.v" Line 138: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 50: Assignment to <arg fmt="%s" index="1">doneW</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 50: Assignment to <arg fmt="%s" index="1">doneW</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 51: Assignment to <arg fmt="%s" index="1">busyR</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 51: Assignment to <arg fmt="%s" index="1">busyR</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 52: Assignment to <arg fmt="%s" index="1">doneR</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 52: Assignment to <arg fmt="%s" index="1">doneR</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 53: Assignment to <arg fmt="%s" index="1">busyW</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 53: Assignment to <arg fmt="%s" index="1">busyW</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/i2c.v" Line 65: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">i2c_data</arg>&gt;. Formal port size is <arg fmt="%d" index="2">22</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/i2c.v" Line 65: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">i2c_data</arg>&gt;. Formal port size is <arg fmt="%d" index="2">22</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v" Line 17: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/divisor_frecuencia.v" Line 17: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 58: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">divisor</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 58: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">divisor</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 68: Assignment to <arg fmt="%s" index="1">ack_p</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 68: Assignment to <arg fmt="%s" index="1">ack_p</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 107: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 107: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 109: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 109: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 110: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v" Line 110: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 492: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">i2c_data_out</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 492: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">i2c_data_out</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 506: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 506: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 506: Assignment to <arg fmt="%s" index="1">i2c_data_out</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 506: Assignment to <arg fmt="%s" index="1">i2c_data_out</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 146: Net &lt;<arg fmt="%s" index="1">lm32i_rty</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 146: Net &lt;<arg fmt="%s" index="1">lm32i_rty</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 147: Net &lt;<arg fmt="%s" index="1">lm32d_rty</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 147: Net &lt;<arg fmt="%s" index="1">lm32d_rty</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 149: Net &lt;<arg fmt="%s" index="1">lm32i_err</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 149: Net &lt;<arg fmt="%s" index="1">lm32i_err</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 150: Net &lt;<arg fmt="%s" index="1">lm32d_err</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 150: Net &lt;<arg fmt="%s" index="1">lm32d_err</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 167: Net &lt;<arg fmt="%s" index="1">gpio0_intr</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 167: Net &lt;<arg fmt="%s" index="1">gpio0_intr</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 184: Input port <arg fmt="%s" index="1">m0_cti_i[2]</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 184: Input port <arg fmt="%s" index="1">m0_cti_i[2]</arg> is not connected on this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v" Line 480: Input port <arg fmt="%s" index="1">wb_sel_i[3]</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v" Line 480: Input port <arg fmt="%s" index="1">wb_sel_i[3]</arg> is not connected on this instance
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%d" index="2">483</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">simtrace</arg>&gt; of block &lt;<arg fmt="%s" index="4">lm32_simtrace</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">lm32_cpu</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%d" index="2">483</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">simtrace</arg>&gt; of block &lt;<arg fmt="%s" index="4">lm32_simtrace</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">lm32_cpu</arg>&gt;. Underlying logic will be removed.
 </msg>
 
 <msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">m0_cti_i</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">conbus0</arg>&apos;, is tied to GND.
@@ -203,82 +203,82 @@
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ncs</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m2_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m2_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m3_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m3_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m4_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m4_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m5_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m5_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m6_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m6_dat_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s0_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s0_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s1_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s1_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s2_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s2_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s3_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s3_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s3_sel_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s3_sel_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s4_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s4_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s4_sel_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s4_sel_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s5_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s5_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s6_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">s6_cti_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m2_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m2_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m3_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m3_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m4_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m4_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m5_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m5_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m6_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">m6_ack_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">conbus0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">I_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">I_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">I_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">I_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">D_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">D_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">D_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">D_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">I_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">I_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">D_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">306</arg>: Output port &lt;<arg fmt="%s" index="3">D_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">480</arg>: Output port &lt;<arg fmt="%s" index="3">i2c_data_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i2c0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/system.v</arg>&quot; line <arg fmt="%s" index="2">480</arg>: Output port &lt;<arg fmt="%s" index="3">i2c_data_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i2c0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">lm32i_rty</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -296,10 +296,10 @@
 <msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">gpio0_intr</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">436</arg>: Output port &lt;<arg fmt="%s" index="3">pc_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">instruction_unit</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">436</arg>: Output port &lt;<arg fmt="%s" index="3">pc_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">instruction_unit</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">495</arg>: Output port &lt;<arg fmt="%s" index="3">x_result_sel_logic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">decoder</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/lm32/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">495</arg>: Output port &lt;<arg fmt="%s" index="3">x_result_sel_logic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">decoder</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">valid_f</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -446,7 +446,7 @@
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">wb_sel_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/raparram/Escritorio/Quadcopter/Quadcopter/rtl/wb_i2c/wb_i2c.v</arg>&quot; line <arg fmt="%s" index="2">55</arg>: Output port &lt;<arg fmt="%s" index="3">ack</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i2c0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/rtl/wb_i2c/wb_i2c.v</arg>&quot; line <arg fmt="%s" index="2">55</arg>: Output port &lt;<arg fmt="%s" index="3">ack</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i2c0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">wb_adr_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.

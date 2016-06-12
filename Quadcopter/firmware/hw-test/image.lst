@@ -11,27 +11,27 @@ Ind Nombre        Tamaño    VMA       LMA       Desp fich Alin
                   CONTENTS, ALLOC, LOAD, DATA
   3 .bss          00000090  00002ca4  00002ca4  00002cf8  2**2
                   ALLOC
-  4 .debug_abbrev 000007a2  00000000  00000000  00002cf8  2**0
+  4 .debug_abbrev 00000765  00000000  00000000  00002cf8  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_info   00003922  00000000  00000000  0000349a  2**0
+  5 .debug_info   000038d2  00000000  00000000  0000345d  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_line   00002cf7  00000000  00000000  00006dbc  2**0
+  6 .debug_line   00002cf7  00000000  00000000  00006d2f  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_frame  000004d0  00000000  00000000  00009ab4  2**2
+  7 .debug_frame  000004d0  00000000  00000000  00009a28  2**2
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_loc    00003643  00000000  00000000  00009f84  2**0
+  8 .debug_loc    00003643  00000000  00000000  00009ef8  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_pubnames 00000526  00000000  00000000  0000d5c7  2**0
+  9 .debug_pubnames 00000526  00000000  00000000  0000d53b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_pubtypes 00000109  00000000  00000000  0000daed  2**0
+ 10 .debug_pubtypes 00000109  00000000  00000000  0000da61  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_aranges 00000060  00000000  00000000  0000dbf6  2**0
+ 11 .debug_aranges 00000060  00000000  00000000  0000db6a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_str    000009ab  00000000  00000000  0000dc56  2**0
+ 12 .debug_str    000009b7  00000000  00000000  0000dbca  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .comment      00000011  00000000  00000000  0000e601  2**0
+ 13 .comment      00000011  00000000  00000000  0000e581  2**0
                   CONTENTS, READONLY
- 14 .debug_ranges 000009c0  00000000  00000000  0000e612  2**0
+ 14 .debug_ranges 000009c0  00000000  00000000  0000e592  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Desensamblado de la sección .text:
