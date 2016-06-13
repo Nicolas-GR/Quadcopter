@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-hamd-IdeaPad-U330-Touch::  Sun Jun 12 16:07:04 2016
+hamd-IdeaPad-U330-Touch::  Mon Jun 13 14:47:20 2016
 
 par -ol high -w system.ncd system-routed.ncd 
 
@@ -115,7 +115,7 @@ Phase  4  : 5509 unrouted; (Setup:21850, Hold:0, Component Switching Limit:0)   
 
 Updating file: system-routed.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:25999, Hold:0, Component Switching Limit:0)     REAL time: 24 secs 
+Phase  5  : 0 unrouted; (Setup:25999, Hold:0, Component Switching Limit:0)     REAL time: 25 secs 
 
 Phase  6  : 0 unrouted; (Setup:25204, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
@@ -127,9 +127,9 @@ Phase  8  : 0 unrouted; (Setup:25204, Hold:0, Component Switching Limit:0)     R
 
 Phase  9  : 0 unrouted; (Setup:25204, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
 
-Phase 10  : 0 unrouted; (Setup:24820, Hold:0, Component Switching Limit:0)     REAL time: 38 secs 
-Total REAL time to Router completion: 38 secs 
-Total CPU time to Router completion: 39 secs 
+Phase 10  : 0 unrouted; (Setup:24820, Hold:0, Component Switching Limit:0)     REAL time: 39 secs 
+Total REAL time to Router completion: 39 secs 
+Total CPU time to Router completion: 40 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -198,8 +198,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 39 secs 
-Total CPU time to PAR completion: 41 secs 
+Total REAL time to PAR completion: 40 secs 
+Total CPU time to PAR completion: 42 secs 
 
 Peak Memory Usage:  724 MB
 

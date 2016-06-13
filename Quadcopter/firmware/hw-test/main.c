@@ -49,8 +49,13 @@ int main(){
 	int32_t AcZ;
 	
 	int8_t AcXh;
+	uint8_t AcXl;
 	int8_t AcYh;	
-	int8_t AcZh;
+	uint8_t AcYl;	
+	int8_t AcZh;		
+	uint8_t AcZl;
+	
+
 	int i=0;
 	setMotors();
 	msleep(50);	
@@ -69,20 +74,23 @@ int main(){
 			AcZh = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_H);
 			sleep(1);
 		}
+		for(i=0;i<5;i++){
+			AcZl = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_L);
+			sleep(1);
+		}
 		
 		for(i=0;i<5;i++){			
-			AcYh = i2c_read (ADDRESS_I2C, ACCEL_YOUT_H);
+			AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
 			sleep(1);
 		}
 		
 		for(i=0;i<5;i++){				
-			AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
+			AcXl = i2c_read (ADDRESS_I2C, ACCEL_XOUT_L);
 			sleep(1);
 		}	
 
-		printxyz(AcXh, 0x00);
-		printxyz(AcYh, 0x00);
-		printxyz(AcZh, 0x00);			
+		printxyz(AcXh, AcXl);
+		printxyz(AcZh, AcZl);
 		uart_putchar1(13);
 		uart_putchar1(10);
 		
@@ -92,8 +100,8 @@ int main(){
 		//AcX=getAcX();
 		//AcY=getAcY();
 		//AcZ=getAcZ();
-		if(AcZ<0x32){  //detección de variaciones en z
-			if(AcX>-115 && AcX<0x0){	// Variaciones en x-
+		if(AcZ<0x32){
+			if(AcX>-115 && AcX<0x0){	
 				if(s2<0x69)
 					s2=s2+0x01;
 				else{
@@ -103,7 +111,7 @@ int main(){
 				}
 				set_motor2(0x5DC * s2 + 0xFD20);
 			}
-			if(AcX>0x1F){			// Variaciones en x+
+			if(AcX>0x1F){
 				if(s4<0x69)
 					s4=s4+0x01;
 				else{
@@ -113,7 +121,7 @@ int main(){
 				}
 				set_motor4(0x5DC * s4 + 0xFD20);			
 			}
-			if(AcY>-115 && AcY<0x0){  	// Variaciones en y-
+			if(AcY>-115 && AcY<0x0){
 				if(s1<0x69)
 					s1=s1+0x01;
 				else{
@@ -123,7 +131,7 @@ int main(){
 				}
 				set_motor1(0x5DC * s1 + 0xFD20);								
 			}
-			if(AcY>0x15){			// Variaciones en y+
+			if(AcY>0x15){
 				if(s4<0x69)
 					s3=s3+0x01;
 				else{
@@ -144,7 +152,7 @@ int main(){
 }
 
 
-/*printxyz(AcXh, 0x00); visualizar en cutecome x-y-z
+/*printxyz(AcXh, 0x00);
 		printxyz(AcYh, 0x00);
 		printxyz(AcZh, 0x00);			
 		uart_putchar1(13);
