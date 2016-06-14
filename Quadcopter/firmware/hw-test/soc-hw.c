@@ -1,5 +1,6 @@
 #include "soc-hw.h"
 #include "string.h"
+#include "softfloat.h"
 
 uart_t  *uart0  = (uart_t *)   	0x20000000;
 timer_t *timer0 = (timer_t *)   0x30000000;
@@ -297,6 +298,7 @@ void testMotos(){
 	set_motor2(0xEA60);
 	set_motor3(0xEA60);
 	set_motor4(0xEA60);
+	msleep(3000);
 }
 
 /******************************************************************************
@@ -363,58 +365,5 @@ void initImu(){
 	sleep(80);
 }
 
-int getAcX(){
-	int8_t AcXh = i2c_read (ADDRESS_I2C, ACCEL_XOUT_H);
-	sleep(1);
-	char AcXl = i2c_read (ADDRESS_I2C, ACCEL_XOUT_L);
-	sleep(1);
-	int acX= (AcXh<<8)+AcXl;
-	return acX;
-}
 
-int getAcY(){
-	int8_t AcYh = i2c_read (ADDRESS_I2C, ACCEL_YOUT_H);
-	sleep(1);
-	char AcYl = i2c_read (ADDRESS_I2C, ACCEL_YOUT_L);
-	sleep(1);
-	int acY= (AcYh<<8)+AcYl;
-	return acY;
-
-}
-int getAcZ(){
-	int8_t AcZh = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_H);
-	sleep(1);
-	char AcZl = i2c_read (ADDRESS_I2C, ACCEL_ZOUT_L);
-	sleep(1);
-	int acZ= (AcZh<<8)+AcZl;
-	return acZ;	
-}
-/*
-int getGx(){
-	char Gxh = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
-	sleep(1);
-	char Gxl = i2c_read (ADDRESS_I2C, GYRO_XOUT_L);
-	sleep(1);
-	int Gx= (Gxh<<8)+Gxl;
-	return Gx;
-}
-
-int getGy(){
-	char Gyh = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
-	sleep(1);
-	char Gyl = i2c_read (ADDRESS_I2C, GYRO_YOUT_L);
-	sleep(1);
-	int Gy= (Gyh<<8)+Gyl;
-	return Gx;
-}
-
-int getGz(){
-	char Gzh = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
-	sleep(1);
-	char Gzl = i2c_read (ADDRESS_I2C, GYRO_ZOUT_L);
-	sleep(1);
-	int Gz= (Gzh<<8)+Gzl;
-	return Gz;
-}
-*/
 

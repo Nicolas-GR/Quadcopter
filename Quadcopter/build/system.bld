@@ -5,9 +5,8 @@ Command Line:
 /media/hamd/Archivos/Programas/Linux/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/
 ngdbuild -uc ../system.ucf system.ngc
 
-Reading NGO file
-"/home/hamd/Documentos/Dig/Quadcopter(Repository)/Quadcopter/build/system.ngc"
-...
+Reading NGO file "/home/hamd/Documentos/Proyecto
+Qcopter/Quadcopter(Repository)/Quadcopter/build/system.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -29,7 +28,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 418100 kilobytes
+Total memory usage is 418096 kilobytes
 
 Writing NGD file "system.ngd" ...
 Total REAL time to NGDBUILD completion:  4 sec

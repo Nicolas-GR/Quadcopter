@@ -28,7 +28,10 @@ this code that are retained.
 
 ===============================================================================
 */
-
+#define PI 0x40490FD8		//Constante PI float32
+#define alfa 0x3F7AE148		//0,5 float32
+#define NEG 0xBF800000		//-1 float32
+#define RtoD 0x42652ECC		//Rad_to_Deg float32
 /*
 -------------------------------------------------------------------------------
 Software IEC/IEEE floating-point types.
