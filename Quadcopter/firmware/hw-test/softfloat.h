@@ -29,9 +29,11 @@ this code that are retained.
 ===============================================================================
 */
 #define PI 0x40490FD8		//Constante PI float32
-#define alfa 0x3F7AE148		//0,5 float32
+#define alfa 0x3F4CCCCD		//0,8 float32
+#define alfa1 0x3E4CCCCD	//0,2 float32
 #define NEG 0xBF800000		//-1 float32
 #define RtoD 0x42652ECC		//Rad_to_Deg float32
+#define G_R 0x43030000		//Ratio to Gyroscope, 131 float32
 /*
 -------------------------------------------------------------------------------
 Software IEC/IEEE floating-point types.
@@ -114,6 +116,7 @@ float32 float32_rem( float32, float32 );
 float32 float32_sqrt( float32 );
 float32 float32_artan( float32 );
 float32 float32_pow2( float32 );
+float32 float32_filterKom( float32, float32, float32,  float32);
 int float32_eq( float32, float32 );
 int float32_le( float32, float32 );
 int float32_lt( float32, float32 );
