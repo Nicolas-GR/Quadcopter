@@ -69,7 +69,7 @@ int getPitch(int pitchOLD, float32 AcX, float32 AcZ, float32 GyY, int dt){
 	AccPitch = float32_artan(a);
 	AccPitch = float32_mul(AccPitch, RtoD);
 	// Picth from Gyr
-	GyrPitch = float32_div(GyY, G_R)
+	GyrPitch = float32_div(GyY, G_R);
 	//Filter
 	pitch = float32_filterKom(pitch, AccPitch, GyrPitch, dt);
 	//print
@@ -121,7 +121,7 @@ float32 readIMU(int adr_h, int adr_l){
 	if(read < 0x0){
 		read = read - low;
 	}else{
-		read = read - low;;
+		read = read + low;
 	} 
 	return int32_to_float32(read);
 }
