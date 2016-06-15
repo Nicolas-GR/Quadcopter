@@ -4,12 +4,6 @@
 #include "soc-hw.h"
 #include "softfloat.h"
 
-
-int s1 = 0x0;
-int s2 = 0x0;
-int s3 = 0x0;
-int s4 = 0x0;
-
 void printdec2hex(char l){
 	char t = ((l & 0xF0) >> 4) + 0x30;
 	if (t > 0x39)
@@ -32,50 +26,62 @@ void printxyz(int8_t AcH, char AcL){
 	uart_putstr1(" ");
 }
 
-int getRoll(float32 AcX, float32 AcZ){
+int getRoll(int rollOLD, float32 AcX, float32 AcY, float32 AcZ, float32 GyX, int dt){
 	float32 a = 0x0;
-	float32 b = 0x0;
-	float32 roll = 0x0;
+	float32 AccRoll = 0x0;
+	float32 GyrRoll = 0x0;
+	float32 roll = int32_to_float32(rollOLD);
 	int ROLL = 0x0;
-	char print;
-	
-	a = float32_mul (NEG, AcX);
-	b = float32_div(a, AcZ);
-	roll = float32_artan(b);
-	roll = float32_mul(roll, RtoD);
+	int8_t print;
+	// Roll from Acc
+	a = float32_add(float32_pow2(AcX), float32_pow2(AcZ)); // b² + c²
+	a = float32_sqrt(a);// (b² + c²)^0.5
+	a = float32_div(AcY, a);// a/((b² + c²)^0.5)
+	AccRoll = float32_artan(a); // ARCTAN(a/((b² + c²)^0.5))
+	AccRoll = float32_mul(AccRoll, RtoD); //Rad_to_Deg
+	// Roll from Gyr
+	GyrRoll = float32_div(GyX, G_R);
+	//Filter
+	roll = float32_filterKom(roll, AccRoll, GyrRoll, dt);
+	//print
 	uart_putchar1(13);
 	uart_putchar1(10);	
-	uart_putstr1("> ROLL  : ");
+	uart_putstr1("> ROLL : ");
 	roll = float32_round_to_int(roll);
-	ROLL = float32_to_int32(roll);
+	ROLL = float32_to_int32(roll); 
 	print = ROLL;
 	printdec2hex(print);
 	uart_putchar1(13);
-	uart_putchar1(10);		
+	uart_putchar1(10);
 	return ROLL;
 }
 
-int getPitch(float32 AcX, float32 AcY, float32 AcZ){
+int getPitch(int pitchOLD, float32 AcX, float32 AcZ, float32 GyY, int dt){
 	float32 a = 0x0;
-	float32 b = 0x0;
-	float32 pitch = 0x0;
+	float32 AccPitch = 0x0;
+	float32 GyrPitch = 0x0;
+	float32 pitch = int32_to_float32(pitchOLD);
 	int PITCH = 0x0;
-	char print;
-	
-	a = float32_add(float32_pow2(AcX), float32_pow2(AcZ)); // b² + c²
-	a = float32_sqrt(a);// (b² + c²)^0.5
-	b = float32_div(AcY, a);// a/((b² + c²)^0.5)
-	pitch = float32_artan(b); // ARCTAN(a/((b² + c²)^0.5))
-	pitch = float32_mul(pitch, RtoD); //Rad_to_Deg
+	int8_t print;
+	// Pitch from Acc
+	a = float32_mul (NEG, AcX);
+	a = float32_div(a, AcZ);
+	AccPitch = float32_artan(a);
+	AccPitch = float32_mul(AccPitch, RtoD);
+	// Picth from Gyr
+	GyrPitch = float32_div(GyY, G_R)
+	//Filter
+	pitch = float32_filterKom(pitch, AccPitch, GyrPitch, dt);
+	//print
 	uart_putchar1(13);
 	uart_putchar1(10);	
-	uart_putstr1("> PITCH : ");
+	uart_putstr1("> PITCH  : ");
 	pitch = float32_round_to_int(pitch);
-	PITCH = float32_to_int32(pitch); 
+	PITCH = float32_to_int32(pitch);
 	print = PITCH;
 	printdec2hex(print);
 	uart_putchar1(13);
-	uart_putchar1(10);
+	uart_putchar1(10);		
 	return PITCH;
 }
 
@@ -122,12 +128,16 @@ float32 readIMU(int adr_h, int adr_l){
 
 
 int main(){
-	int pitch;
-	int roll;
-
-	float32 AcX;
-	float32 AcY;
-	float32 AcZ;	
+	int pitch = 0x0;
+	int roll = 0x0;
+	float32 AcX = 0x0;
+	float32 AcY = 0x0;
+	float32 AcZ = 0x0;	
+	float32 GyX = 0x0;
+	float32 GyY = 0x0;
+	uint32_t dt = 0x0;
+	timer0->counter0 =0;
+	timer0->compare0=0xFFFFFFFF;	
 	
 	setMotors();
 	msleep(50);	
@@ -142,13 +152,19 @@ int main(){
 	for(;;){
 		uart_putchar1(13);
 		uart_putchar1(10);
+		timer0->tcr0 = 0;
+		dt=timer0->counter0;
 		AcX = readIMU(ACCEL_XOUT_H, ACCEL_XOUT_L);
 		AcY = readIMU(ACCEL_YOUT_H, ACCEL_YOUT_L);
 		AcZ = readIMU(ACCEL_ZOUT_H, ACCEL_ZOUT_L);
+		GyX = readIMU(GYRO_XOUT_H, GYRO_XOUT_L);
+		GyY = readIMU(GYRO_YOUT_H, GYRO_YOUT_L);
+		timer0->counter0 =0;
+		timer0->tcr0 = TIMER_EN;		
 		uart_putchar1(13);
 		uart_putchar1(10);
-		roll = getRoll(AcX, AcZ);
-		pitch = getPitch(AcX, AcY, AcZ);
+		roll = getRoll(roll, AcX, AcY, AcZ, GyX, dt);
+		pitch = getPitch(pitch, AcX, AcZ, GyY, dt);
 		uart_putchar1(13);
 		uart_putchar1(10);		
 		switch (updateMotors(pitch, roll)){
