@@ -30,6 +30,7 @@ int getRoll(int rollOLD, float32 AcX, float32 AcY, float32 AcZ, float32 GyX, int
 	float32 a = 0x0;
 	float32 AccRoll = 0x0;
 	float32 GyrRoll = 0x0;
+	float32 DT = int32_to_float32(dt);
 	float32 roll = int32_to_float32(rollOLD);
 	int ROLL = 0x0;
 	int8_t print;
@@ -42,7 +43,7 @@ int getRoll(int rollOLD, float32 AcX, float32 AcY, float32 AcZ, float32 GyX, int
 	// Roll from Gyr
 	GyrRoll = float32_div(GyX, G_R);
 	//Filter
-	roll = float32_filterKom(roll, AccRoll, GyrRoll, dt);
+	roll = float32_filterKom(roll, AccRoll, GyrRoll, DT);
 	//print
 	uart_putchar1(13);
 	uart_putchar1(10);	
@@ -61,6 +62,7 @@ int getPitch(int pitchOLD, float32 AcX, float32 AcZ, float32 GyY, int dt){
 	float32 AccPitch = 0x0;
 	float32 GyrPitch = 0x0;
 	float32 pitch = int32_to_float32(pitchOLD);
+	float32 DT = int32_to_float32(dt);
 	int PITCH = 0x0;
 	int8_t print;
 	// Pitch from Acc
@@ -71,7 +73,7 @@ int getPitch(int pitchOLD, float32 AcX, float32 AcZ, float32 GyY, int dt){
 	// Picth from Gyr
 	GyrPitch = float32_div(GyY, G_R);
 	//Filter
-	pitch = float32_filterKom(pitch, AccPitch, GyrPitch, dt);
+	pitch = float32_filterKom(pitch, AccPitch, GyrPitch, DT);
 	//print
 	uart_putchar1(13);
 	uart_putchar1(10);	
