@@ -1068,4 +1068,20 @@ float32 float32_pow2( float32 a)
 {
 	return float32_mul(a,a);
 }
+//-----------------------------------------------------------------------
+// komplementary filter:
+// - oldAngle: 	Previous measured angle
+// - AGy:		Gyroscope angle
+// - AAc:		Accelerometer angle
+// - dt:		time
+//-----------------------------------------------------------------------
+float32 float32_filterKom(float32 oldAngle, float32 AGy, float32 AAc, float32 dt){
+	//Filter: newAngle= 0.98 *(oldAngle + AGy * dt) + 0.02 * AAc
+	dt = float32_mul(dt, 0x322BCC77); //0,00000001
+	float32 newAngle = float32_mul(AGy, dt);
+	newAngle = float32_add(newAngle, oldAngle);
+	newAngle = float32_mul(newAngle, alfa);
+	float32 temp = float32_mul(AAc, beta);
+	return float32_add(newAngle, temp);
+}
 
