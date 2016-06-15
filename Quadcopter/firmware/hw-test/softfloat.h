@@ -30,7 +30,7 @@ this code that are retained.
 */
 #define PI 0x40490FD8		//Constante PI float32
 #define alfa 0x3F4CCCCD		//0,8 float32
-#define alfa1 0x3E4CCCCD	//0,2 float32
+#define beta 0x3E4CCCCD    //0,2 float32
 #define NEG 0xBF800000		//-1 float32
 #define RtoD 0x42652ECC		//Rad_to_Deg float32
 #define G_R 0x43030000		//Ratio to Gyroscope, 131 float32
