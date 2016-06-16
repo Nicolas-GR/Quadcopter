@@ -1042,25 +1042,17 @@ float32 float32_abs(float32 a)
 /*
 -------------------------------------------------------------------------------
 This is an approximation of an arctan function, for values in the range [-1,1] 
-When Pi_4=0x3F490FD8,0.2447=0x3E7A92A3 , 0.0663=0x3D87C84B, and the formula is
+When Pi/4=Pi_4=0x3F490FD8, 0.273=0x3E8BC6A8, 1=0x3F800000 and the formula is
 
-arctan(x)=PI_4*x - x*(fabs(x) - 1)*(0.2447 + 0.0663*fabs(x))
-The article :
+arctan(x)=PI_4*x +0.273*(1-abs(x))*x
+
+That formula was taken from equation 7
 http://www.iro.umontreal.ca/~mignotte/IFT2425/Documents/EfficientApproximationArctgFunction.pdf
 -------------------------------------------------------------------------------
 */
-float32 float32_artan( float32 a)
+float32 float32_artan( float32 x )
 {
-	float32 b = float32_mul(0x3F490FD8,a);
-	float32 i = float32_abs(a);
-	float32 c = float32_add(i,0xBF800000);
-	float32 d = float32_mul(a,c);
-	float32 e = float32_mul(i,0x3D87C84B);
-	float32 f = float32_add(0x3E7A92A3,e);
-	float32 g = float32_mul(f,d);
-	//float32 j = float32_mul(g,0xBF800000);
-	float32 h = float32_sub(b,g);
-	return h;
+return	float32_mul(x,float32_add(0x3F490FD8,float32_mul(0x3E8BC6A8,float32_sub(0x3F800000,float32_abs(x)))));
 }
 
 /*
