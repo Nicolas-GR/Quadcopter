@@ -317,7 +317,7 @@ void rw(int data_rw){
 void i2c_write (int dirI2C, int dirIntern, int data)
 {		
 	start_Write(1);
-	msleep(10);
+	msleep(1);
 	start_Write(0);
 	rw(0); 
 	while((i2c0->availWrite)==0x00);
@@ -327,7 +327,7 @@ void i2c_write (int dirI2C, int dirIntern, int data)
 
 int8_t i2c_read (int dirI2C, int dirIntern){  
 	start_Read(1);
-	msleep(10);
+	msleep(1);
 	start_Read(0);
 	rw(1);
 	while((i2c0->availRead)==0x04);
